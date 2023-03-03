@@ -5,7 +5,7 @@ http://flickity.metafizzy.co
 ---------------------------------------------- */
 .flickity-enabled{position:relative}
 .flickity-enabled:focus{outline:0}
-.flickity-viewport{overflow:hidden;position:relative;height:100%}
+.flickity-viewport{overflow:visible;position:relative;height:100%}
 .flickity-slider{position:absolute;width:100%;height:100%;}
 .flickity-enabled .is-draggable{
     -webkit-tap-highlight-color:transparent;
