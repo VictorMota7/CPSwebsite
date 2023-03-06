@@ -863,7 +863,7 @@ ol, ul {
 }
 .carousel-container .carousel .carousel-cell img{
     max-width: 100%;
-    height: 100%;
+    height: 100px;
     display: block;
     border-radius: 5px;
 }
@@ -885,11 +885,8 @@ ol, ul {
     width: 100%;
     height: auto;
 }
-.carousel-wrapper .carousel .carousel-cell{
-    height: auto;
-    padding: 5px;
-    margin: 0px;
-    min-width: 118px;
+.carousel-wrapper .carousel .carousel-cell{margin: 0 5px;min-width: 100px;
+
 }
 .carousel .carousel-title{
     font-size: 14px;
@@ -929,39 +926,36 @@ ol, ul {
     margin-left: -415px;
 }
 
-.carousel-wrapper .carousel .carousel-cell img{
-    max-height: 79.1px;
-    margin-left: -20px;
-    max-width: 99.2px;
-}
 @media (min-width: 576px) {
     .container{
         max-width: 100% !important;
     }
 }
-/* .carousel .flickity-prev-next-button{
-    display: none;
-}
-.carousel .flickity-button .flickity-prev-next-button:hover{
-    display: block !important;
-} */
 
 @media only screen and (min-width:270px){
-    .heading1{
-        font-size: 36px;
-    }
     .container .wrapper {
-        margin-top: 60px;
+        margin-top: 50px;
     }
     .carousel-container{
-        margin-top: 90px;
-  
+        margin-top: 70px;
+    }
+    .heading1{
+        font-size: 28px;
+        line-height: 1.149;
+        letter-spacing: 0.5px;
+        font-weight: 600;
     }
     .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -40px;
     }
+    .carousel-wrapper .carousel .carousel-cell {
+        min-width: 100px;
+    }
+    .carousel-wrapper .carousel .carousel-cell img{
+       max-height: 87px;
+    }
     .carousel-card-container{
-        margin-top: 210px;
+        margin-top: 180px;
     }
     .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -7px;
@@ -995,9 +989,30 @@ ol, ul {
 }
 
 @media only screen and (min-width:320px){
- 
+    .container .wrapper{
+        margin-top: 60px;
+    }
+    .heading1{
+        font-size: 32px;
+        line-height: 1.125;
+        letter-spacing: 0.5px;
+        display: inline;
+        font-weight: 600;
+    }
+    .carousel-container{
+        margin-top: 80px;
+    }
+    .carousel-wrapper .carousel .carousel-cell img{
+       max-height: 87px;
+    }
     .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -65px;
+        margin-left: -60px;
+    }
+    .carousel-wrapper .carousel .carousel-cell {
+        min-width: 110px;
+    }
+    .carousel-card-container{
+        margin-top: 180px;
     }
     .carousel-card-wrapper .carousel .carousel-cell {
         width: 240px;
@@ -1026,8 +1041,23 @@ ol, ul {
     
 }
 @media only screen and (min-width:576px){
+    .carousel-container{
+        margin-top: 80px;
+    }
+    .carousel-wrapper .carousel .carousel-cell{
+        height: auto;
+        padding: 5px;
+        margin: 0px;
+        min-width: 130px;
+    }
+    .carousel-wrapper .carousel .carousel-cell img{
+       max-height: 87px;
+    }
     .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -190px;
+    }
+    .carousel-card-container{
+        margin-top: 190px;
     }
     .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -80px;
@@ -1056,8 +1086,16 @@ ol, ul {
 } 
 @media only screen and (min-width:736px){
     
+    .container .wrapper {
+        margin-top: 90px;
+    }
     .carousel-card-container .container .wrapper {
-        margin-top: 230px;
+        margin-top: 270px;
+    }
+    .heading1{
+        font-size: 48px;
+        line-height: 1.125;
+        letter-spacing: 0.5px;
     }
     .heading3{
         font-size: 32px;
@@ -1065,14 +1103,22 @@ ol, ul {
         font-weight: 600;
     }
     .carousel-container{
-        margin-top: 100px;
+        margin-top: 110px;
+    }
+    .carousel-wrapper .carousel .carousel-cell{
+        height: auto;
+        padding: 5px;
+        margin: 0px;
+    }
+    .carousel-wrapper .carousel .carousel-cell img{
+       max-height: 87px;
     }
     .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -275px;
+        margin-left: -260px;
     }
-    /* .carousel-card-container{
+    .carousel-card-container{
         margin-top: 200px;
-    } */
+    }
     .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -140px;
     }
@@ -1089,21 +1135,23 @@ ol, ul {
     }
 }
 @media only screen and (min-width:976px){
-    
-    .heading1{
-        font-size: 43px;
+    .carousel-wrapper .carousel .carousel-cell{
+        height: auto;
+        padding: 5px;
+        margin: 0px;
+        min-width: 150px;
     }
-    .container .wrapper {
-        margin-top: 90px;
+    .carousel-wrapper .carousel .carousel-cell img{
+       max-height: 87px;
     }
     .carousel-container{
-        margin-top: 120px;
+        margin-top: 140px;
     }
     .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -390px;
     }
     .carousel-card-container .container .wrapper {
-        margin-top: 150px;
+        margin-top: 282px;
     }
     .carousel-card-container{
         margin-top: 200px;
@@ -1138,11 +1186,20 @@ ol, ul {
     .carousel-container {
         margin-top: 140px;
     }
+    .carousel-wrapper .carousel .carousel-cell{
+        height: auto;
+        padding: 5px;
+        margin: 0px;
+        min-width: 150px;
+    }
+    .carousel-wrapper .carousel .carousel-cell img{
+       max-height: 87px;
+    }
     .carousel-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -400px;
+        margin-left: -420px;
     }
     .carousel-card-container{
-        margin-top: 290px;
+        margin-top: 150px;
     }
     .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -270px;
@@ -1162,3 +1219,23 @@ h6 a{
 }
 
 .style1 {}
+
+.style2 {
+    text-transform: capitalize;
+}
+
+.style2:active {
+    text-align: center;
+}
+
+.style3 {
+    font-family: sans-serif;
+}
+
+.style4 {}
+
+.style5 {}
+
+.style6 {
+    margin-top: 36px;
+}

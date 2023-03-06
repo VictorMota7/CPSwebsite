@@ -10,6 +10,15 @@
       "path": "/CPS_Motate",
       "page": "CPS_Motate",
       "layout": "main"
+    },
+    {
+      "path": "/testing_swipper",
+      "page": "testing_swipper"
+    },
+    {
+      "path": "/test-carousel-v2",
+      "page": "test-carousel-v2",
+      "layout": "main"
     }
   ]
 }

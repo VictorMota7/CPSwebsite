@@ -2,5 +2,13 @@
   "CPS_Motate.ejs": {
     "layoutPage": "main",
     "description": ""
+  },
+  "testing_swipper.ejs": {
+    "layoutPage": "",
+    "description": ""
+  },
+  "test-carousel-v2.ejs": {
+    "layoutPage": "main",
+    "description": ""
   }
 }
