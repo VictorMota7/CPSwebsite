@@ -38,11 +38,8 @@ body {
     padding: 0 8px;
     height: 100%;
 }
-.container .wrapper{
+.section2{
     margin-top: 90px;
-}
-.carousel-container .container .wrapper{
-    margin-top: 190px;
 }
 nav .desktop-nav {
     display: -webkit-box;
@@ -754,7 +751,7 @@ ol, ul {
 }
 
     .heading1{
-        font-size: 48px;
+        font-size: 46px;
         line-height: 1.125;
         letter-spacing: 0.5px;
         font-weight: 600;
@@ -773,13 +770,13 @@ ol, ul {
         padding-bottom: 0px;
     }
 .shop-header-red {
-    color: #aa150b;
+    color: #ee1458;
 }
 .shop-header-blue {
-    color: #0fa0e4;
+    color: #009ad5;
 }
 .shop-header-yellow {
-    color: #dfe20c;
+    color: #ffe800;
 }
 .shop-subheader {
     color: #000000;
@@ -791,12 +788,8 @@ ol, ul {
     letter-spacing: 0.5px;
     font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-.carousel-card-container{
-    margin-top: 250px;
 
-}
-
-.carousel-card-wrapper .card{  
+.section5-carousel-card-wrapper .card{  
     width: auto;
     height: auto;
     border-radius: 18px;
@@ -804,17 +797,10 @@ ol, ul {
     -webkit-box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
             box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
 }
-.carousel-card-wrapper .card:hover{  
-    z-index: 1;
-    -webkit-box-shadow: 0px 5px 50px rgb(0, 0, 0, 0.2);
-            box-shadow: 0px 5px 50px rgb(0, 0, 0, 0.2);
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
-}
-.carousel-card-wrapper .card .card-img-overlay{
+.section5-carousel-card-wrapper .card .card-img-overlay{
     padding: 20px 15px;
 }
-.carousel-card-wrapper .card .card-text{
+.section5-carousel-card-wrapper .card .card-text{
     font-size: 12px;
     line-height: 1.33337;
     letter-spacing: -.01em;
@@ -823,14 +809,14 @@ ol, ul {
     color: #6e6e73;
     margin-bottom: 0.6rem;
 }
-.carousel-card-wrapper .carousel .card .card-title {
+.section5-carousel-card-wrapper .carousel .card .card-title {
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
     letter-spacing: -.01em;
     font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-.carousel-card-wrapper .card .card-content-desc {
+.section5-carousel-card-wrapper .card .card-content-desc {
     font-size: 17px;
     line-height: 1.23536;
     font-weight: 600;
@@ -839,35 +825,111 @@ ol, ul {
     color: #1d1d1f;
     margin-top: 0;
 }
-.carousel-card-wrapper .carousel-cell .card .card-img-top{
+.section5-carousel-card-wrapper .carousel-cell .card .card-img-top{
     border-radius: 18px;
     height: 100%;
 }
-.carousel-card-wrapper .carousel .flickity-page-dots{
+.section5-carousel-card-wrapper .carousel .flickity-page-dots{
     display: none;
 }
-.carousel-card-wrapper .carousel .carousel-cell {
-  width: 29%;
-  height: auto;
+.section5-carousel-card-wrapper .carousel .carousel-cell {
+  width: auto;
+  min-height: 400px;
   border-radius: 18px;
-  margin-right: 15px;
+  margin-right: 20px;
   counter-increment: gallery-cell;
+  contain: content;
 }
-.carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+.section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+    margin-left: -295px;
+}
+.section5 .horizantal-image{
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 2px 1px 2px 1px;
+    contain: strict;
+    height: calc(100% - 49%);
+}
+
+.section4{
+    margin-top: 250px;
+}
+.section4-carousel-card-wrapper h3{
+        line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline;
+}
+.section4-carousel-card-wrapper .card{  
+    width: auto;
+    height: auto;
+    border-radius: 18px;
+    white-space: normal;
+    -webkit-box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+            box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+/* .section4-carousel-card-wrapper .card:hover{  
+    z-index: 1;
+    -webkit-box-shadow: 0px 5px 50px rgb(0, 0, 0, 0.2);
+            box-shadow: 0px 5px 50px rgb(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+} */
+.section4-carousel-card-wrapper .card .card-img-overlay{
+    padding: 20px 15px;
+}
+.section4-carousel-card-wrapper .card .card-text{
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #6e6e73;
+    margin-bottom: 0.6rem;
+}
+.section4-carousel-card-wrapper .carousel .card .card-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.section4-carousel-card-wrapper .card .card-content-desc {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    margin-top: 0;
+}
+.section4-carousel-card-wrapper .carousel-cell .card .card-img-top{
+    border-radius: 18px;
+    height: 100%;
+}
+.section4-carousel-card-wrapper .carousel .flickity-page-dots{
+    display: none;
+}
+.section4-carousel-card-wrapper .carousel .carousel-cell {
+  width: auto;
+  min-height: 400px;
+  border-radius: 18px;
+  margin-right: 20px;
+  counter-increment: gallery-cell;
+  contain: content;
+}
+.section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
     margin-left: -295px;
 }
 
-.carousel-container{
-    background-color: #f5f5f7;
-    margin-top: 150px;
-}
-.carousel-container .carousel .carousel-cell img{
+.section3 .carousel .carousel-cell img{
     max-width: 100%;
     height: 100%;
     display: block;
     border-radius: 5px;
 }
-.carousel-wrapper{
+.section3-wrapper{
     position: relative;
     width: 100%;
     height: 100%;
@@ -877,7 +939,7 @@ ol, ul {
             transform: translate(-50%,-50%);
     background-color: #fff;
 }
-.carousel-wrapper .carousel{
+.section3-wrapper .carousel{
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -885,7 +947,7 @@ ol, ul {
     width: 100%;
     height: auto;
 }
-.carousel-wrapper .carousel .carousel-cell{
+.section3-wrapper .carousel .carousel-cell{
     height: auto;
     padding: 5px;
     margin: 0px;
@@ -903,7 +965,7 @@ ol, ul {
     margin-top: 0.75rem!important;
     margin-bottom: 0.5rem!important;
 }
-.carousel-wrapper .carousel .carousel-cell .more{
+.section3-wrapper .carousel .carousel-cell .more{
     display: block;
     opacity: 0;
     margin: 5px 0 15px;
@@ -914,22 +976,22 @@ ol, ul {
     -webkit-transition: opacity 300ms ease;
     transition: opacity 300ms ease;
 }
-.carousel-wrapper .carousel .carousel-cell .more:hover,
-.carousel-wrapper .carousel .carousel-cell .more:active,
-.carousel-wrapper .carousel .carousel-cell .more:visited,
-.carousel-wrapper .carousel .carousel-cell .more:focus{
+.section3-wrapper .carousel .carousel-cell .more:hover,
+.section3-wrapper .carousel .carousel-cell .more:active,
+.section3-wrapper .carousel .carousel-cell .more:visited,
+.section3-wrapper .carousel .carousel-cell .more:focus{
     color: #cfcfcf;
     text-decoration: none;
  }
-.carousel-wrapper .flickity-page-dots{
+.section3-wrapper .flickity-page-dots{
     display: none;
 }
 
-.carousel-wrapper .carousel .flickity-viewport .flickity-slider{
+.section3-wrapper .carousel .flickity-viewport .flickity-slider{
     margin-left: -415px;
 }
 
-.carousel-wrapper .carousel .carousel-cell img{
+.section3-wrapper .carousel .carousel-cell img{
     max-height: 79.1px;
     margin-left: -20px;
     max-width: 99.2px;
@@ -948,45 +1010,83 @@ ol, ul {
 
 @media only screen and (min-width:270px){
     .heading1{
-        font-size: 36px;
+        font-size: 32px;
     }
-    .container .wrapper {
+    .section2 {
         margin-top: 60px;
     }
-    .carousel-container{
+    .section3{
         margin-top: 90px;
   
     }
-    .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
+    .section3 .carousel-title{
+        font-size: 12px;
+    }
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -40px;
     }
-    .carousel-card-container{
+    .section4{
         margin-top: 210px;
     }
-    .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -7px;
+    .section4-carousel-card-wrapper .card .card-icons{
+        border: 1px solid; 
+        border-radius: 10px; 
+        height: 72px;
+    }
+    .section4-carousel-card-wrapper .card .card-icon-title{
+        border: 1px solid; 
+        border-radius: 10px; 
+        font-size: 9px; 
+        font-weight: 600; 
+        margin-bottom:12px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: 25px;
     }
     
-    .carousel-card-wrapper .card .card-img-top{
+    .section4-carousel-card-wrapper .card .card-img-top{
         height: 320px !important;
     }
-    .carousel-card-wrapper .carousel .carousel-cell {
-        width: 210px;
-        height: 320px;
-        contain: content;
+    .section4-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 260px;
+        height: 325px;
     }
-    .carousel-card-container .heading3 {
-        font-size: 24px;
-    }
-    .carousel-card-wrapper .carousel .card .card-title {
+    .section4-carousel-card-wrapper .carousel .card .card-title {
         font-size: 14px;
         line-height: 18px;
     }
-    .carousel-card-wrapper .carousel .card .card-text {
+    .section4-carousel-card-wrapper .carousel .card .card-text {
         font-size: 11px;
         margin-bottom: 4px;
     }
-    .carousel-card-wrapper .card .card-content-desc {
+    .section4-carousel-card-wrapper .card .card-content-desc {
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 1.5px;
+    }
+    .section5 .heading3 {
+        font-size: 22px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: 25px;
+    }
+    
+    .section5-carousel-card-wrapper .card .card-img-top{
+        height: 320px !important;
+    }
+    .section5-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 260px;
+        height: 325px;
+    }
+    .section5-carousel-card-wrapper .carousel .card .card-title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .section5-carousel-card-wrapper .carousel .card .card-text {
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+    .section5-carousel-card-wrapper .card .card-content-desc {
         font-size: 12px;
         line-height: 1.16;
         letter-spacing: 1.5px;
@@ -996,164 +1096,311 @@ ol, ul {
 
 @media only screen and (min-width:320px){
  
-    .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -65px;
     }
-    .carousel-card-wrapper .carousel .carousel-cell {
-        width: 240px;
-        height: 350px;
-        contain: content;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: 0px;
     }
-    .carousel-card-container .heading3 {
-        font-size: 24px;
-    }
-    .carousel-card-wrapper .card .card-img-top{
+    .section4-carousel-card-wrapper .card .card-img-top{
         height: 350px !important;
     }
-    .carousel-card-wrapper .carousel .card .card-title {
+    .section4-carousel-card-wrapper .carousel .card .card-title {
         font-size: 16px;
         line-height: 24px;
     }
-    .carousel-card-wrapper .carousel .card .card-text {
+    .section4-carousel-card-wrapper .carousel .card .card-text {
         font-size: 12px;
         margin-bottom: 6px;
     }
-    .carousel-card-wrapper .card .card-content-desc {
+    .section4-carousel-card-wrapper .card .card-content-desc {
+        font-size: 14px;
+        line-height: 1.2356;
+        letter-spacing: 1.5px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: 0px;
+    }
+    .section5-carousel-card-wrapper .card .card-img-top{
+        height: 350px !important;
+    }
+    .section5-carousel-card-wrapper .carousel .card .card-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .section5-carousel-card-wrapper .carousel .card .card-text {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .section5-carousel-card-wrapper .card .card-content-desc {
         font-size: 14px;
         line-height: 1.2356;
         letter-spacing: 1.5px;
     }
     
 }
+
+@media only screen and (min-width:343px){
+    
+    .section4-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 305.9px;
+        height: 382.2px;
+    }
+    .section4-carousel-card-wrapper .card .card-icons{
+        height: 90px;
+    }
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -85px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -20px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -15px;
+    }
+}
+@media only screen and (min-width:360px){
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -85px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -20px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -15px;
+    }
+}
+@media only screen and (min-width:375px){
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -95px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -25px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -20px;
+    }
+}
+@media only screen and (min-width:412px){
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -115px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -45px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -40px;
+    }
+
+}
+@media only screen and (min-width:540px){
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -175px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -110px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -110px;
+    }
+
+}
 @media only screen and (min-width:576px){
-    .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -190px;
     }
-    .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -80px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -125px;
     }
-    .carousel-card-wrapper .carousel .carousel-cell {
-        width: 350px;
-        height: 435px;
-        contain: content;
-    }
-    .carousel-card-container .heading3 {
-        font-size: 28px;
-    }
-    .carousel-card-wrapper .carousel .card .card-title {
+    .section4-carousel-card-wrapper .carousel .card .card-title {
         font-size: 20px;
         line-height: 24px;
     }
-    .carousel-card-wrapper .carousel .card .card-text {
+    .section4-carousel-card-wrapper .carousel .card .card-text {
         font-size: 14px;
     }
-    .carousel-card-wrapper .card .card-content-desc {
+    .section4-carousel-card-wrapper .card .card-content-desc {
         font-size: 16px;
     }
-    .carousel-card-wrapper .card .card-img-top {
+    .section4-carousel-card-wrapper .card .card-img-top {
+        height: 100% !important;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -125px;
+    }
+    .section5-carousel-card-wrapper .carousel .card .card-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .section5-carousel-card-wrapper .carousel .card .card-text {
+        font-size: 14px;
+    }
+    .section5-carousel-card-wrapper .card .card-content-desc {
+        font-size: 16px;
+    }
+    .section5-carousel-card-wrapper .card .card-img-top {
         height: 100% !important;
     }
 } 
 @media only screen and (min-width:736px){
-    
-    .carousel-card-container .container .wrapper {
-        margin-top: 230px;
-    }
-    .heading3{
-        font-size: 32px;
-        line-height: 1;
-        font-weight: 600;
-    }
-    .carousel-container{
+    .section3{
         margin-top: 100px;
     }
-    .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
+    .section3 .carousel-title{
+        font-size: 14px;
+    }
+    .section4 {
+        margin-top: 220px;
+    }
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -275px;
     }
-    /* .carousel-card-container{
-        margin-top: 200px;
-    } */
-    .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -140px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -185px;
     }
-    .carousel-card-wrapper .carousel .carousel-cell {
-        width: 385px;
-        height: 480px;
-        contain: content;
+    .section4-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 400px;
+        height: 500px;
     }
-    .carousel-card-container .heading3 {
-        font-size: 28px;
+    .section4-carousel-card-wrapper .card .card-icons{
+        height: 123px;
     }
-    .carousel-card-wrapper .card .card-img-overlay {
+    .section4-carousel-card-wrapper .card .card-img-overlay {
         padding: 22px 25px;
     }
+    .section5{
+        margin-top: 80px;
+    }
+    .section5 .heading3 {
+        font-size: 24px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -185px;
+    }
+    .section5-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 305.9px;
+        height: 382.2px;
+    }
+    .section5-carousel-card-wrapper .card .card-icons{
+        height: 90px;
+    }
+    .section5-carousel-card-wrapper .card .card-img-overlay {
+        padding: 22px 25px;
+    }
+}
+@media only screen and (min-width:768px){
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -285px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -200px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -200px;
+    }
+}
+@media only screen and (min-width:820px){
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -315px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -225px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -220px;
+    }
+
+}
+@media only screen and (min-width:912px){
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -360px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -270px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -270px;
+    }
+
 }
 @media only screen and (min-width:976px){
     
     .heading1{
-        font-size: 43px;
-    }
-    .container .wrapper {
-        margin-top: 90px;
-    }
-    .carousel-container{
-        margin-top: 120px;
-    }
-    .carousel-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -390px;
-    }
-    .carousel-card-container .container .wrapper {
-        margin-top: 150px;
-    }
-    .carousel-card-container{
-        margin-top: 200px;
-    }
-    .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -260px;
-    }
-    .carousel-card-wrapper .carousel .carousel-cell {
-        width: 390px;
-        height: 487px;
-        contain: content;
-    }
-    .carousel-card-container .heading3 {
         font-size: 36px;
     }
-    .carousel-card-wrapper .card .card-img-overlay {
+    .section2 {
+        margin-top: 90px;
+    }
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -390px;
+    }
+    .section4{
+        margin-top: 250px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -300px;
+    }
+    .section4-carousel-card-wrapper .card .card-img-overlay {
         padding: 27px;
     }
-    .carousel-card-wrapper .carousel .card .card-text {
+    .section4-carousel-card-wrapper .carousel .card .card-text {
         font-size: 18px;
     }
-    .carousel-card-wrapper .carousel .card .card-title {
+    .section4-carousel-card-wrapper .carousel .card .card-title {
         font-size: 24px;
         line-height: 28px;
     }
-    .carousel-card-wrapper .card .card-content-desc {
+    .section4-carousel-card-wrapper .card .card-content-desc {
+        font-size: 20px;
+    }
+    .section5 {
+        margin-top: 100px;
+    }
+    .section5 .heading3 {
+        font-size: 28px;
+    }
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -300px;
+    }
+    .section5-carousel-card-wrapper .card .card-img-overlay {
+        padding: 27px;
+    }
+    .section5-carousel-card-wrapper .carousel .card .card-text {
+        font-size: 18px;
+    }
+    .section5-carousel-card-wrapper .carousel .card .card-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .section5-carousel-card-wrapper .card .card-content-desc {
         font-size: 20px;
     }
 }
-
 @media only screen and (min-width:1024px) {
-    .carousel-container {
-        margin-top: 140px;
+    .section3{
+        margin-top: 110px;
     }
-    .carousel-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -400px;
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: -420px;
     }
-    .carousel-card-container{
-        margin-top: 290px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -280px;
     }
-    .carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -270px;
+    .section4-carousel-card-wrapper .card .card-icon-title{
+        font-size: 12px;
     }
-    .carousel-card-wrapper .carousel .carousel-cell {
-        width: 420px;
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -280px;
+    }
+    .section5-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 400px;
         height: 500px;
-        contain: content;
     }
-    .carousel-card-container .heading3 {
-        font-size: 36px;
+    .section5-carousel-card-wrapper .card .card-icons {
+        height: 123px;
+    }
+    .section5-carousel-card-wrapper .card .card-icon-title{
+        font-size: 12px;
     }
 }
 
@@ -1161,4 +1408,126 @@ h6 a{
     text-decoration-line: none;
 }
 
-.style1 {}
+
+    .line-cps-red {
+        height: 5px;
+        text-indent: -999px;
+        background-color: #ee1458;
+        width: 20% !important;
+        background-clip: padding-box;
+    }
+
+    .line-cps-black {
+        height: 5px;
+        text-indent: -999px;
+        background-color: #000;
+        width: 20% !important;
+        background-clip: padding-box;
+    }
+
+    .line-cps-blue {
+        height: 5px;
+        text-indent: -999px;
+        background-color: #009ad5;
+        width: 20% !important;
+        background-clip: padding-box;
+    }
+
+    .line-cps-yellow {
+        height: 5px;
+        text-indent: -999px;
+        background-color: #ffe800;
+        width: 20% !important;
+        background-clip: padding-box;
+    }
+    video{
+        background: white;
+    }
+/* This used to work for the parent element of button divs */
+/* But it does not work with newer browsers, the below doesn't hide the play button parent div */
+
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* Old shadow dom for play button */
+
+*::-webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* New shadow dom for play button */
+
+/* This one works! */
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-footer{
+    background-color: #0C1635;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.footer-logo p{
+    color: #ee1458;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.section-footer .container .bottom-search{
+    background: transparent;
+    color: #fff;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-footer .d-flex a{
+    color:#fff;
+}
+
+
+::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+
+
