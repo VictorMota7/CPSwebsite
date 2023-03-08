@@ -1508,23 +1508,23 @@ h6 a{
 }
 
 
-::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+video::-webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
 }
-::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+video::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
 }
-:-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+video:-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
 }
-::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+video::-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
 }
