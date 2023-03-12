@@ -277,7 +277,7 @@
             <div class="carousel-cell">
                 <h3>Latest</h3>
                 <div class="card img-fluid">
-                    <video autoplay="autoplay" muted loop controls="false" playsinline="true" class="card-img-top col" src="/assets/videos/mixkit-mother-with-her-little-daughter-eating-a-marshmallow-in-nature-39764-large.mp4" style="object-fit:cover">
+                    <video id="video-player" autoplay="autoplay" muted loop controls="false" playsinline="true" preload="metadata" class="card-img-top col" src="/assets/videos/mixkit-mother-with-her-little-daughter-eating-a-marshmallow-in-nature-39764-large.mp4" style="object-fit:cover;pointer-events:none;">
                         <source src="/assets/videos/IMG_3565.MOV" type="video/mp4">
                     </video>
                     <div class="card-img-overlay d-none">
@@ -760,4 +760,8 @@
         </div>
     </div>
 </div>
+
 <!-- Footer Ends Here -->
+<script>
+    document.getElementById('video-player').controls = false;
+</script>
