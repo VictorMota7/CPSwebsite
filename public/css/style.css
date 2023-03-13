@@ -1,10 +1,7 @@
 *,
 *::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+*::before {margin: 0;padding: 0;
+    -webkit-box-sizing: border-box;box-sizing: border-box;
 }
 
 body {
@@ -71,8 +68,8 @@ nav .desktop-nav li a:hover {
     background: url('../assets/favicon.ico/favicon-16x16.png');
     display: block;
     background-position: center;
-    height: 16px;
-    width: 15px;
+    height: 48px;
+    width: 18px;
     background-repeat: no-repeat;
     background-image: url("../favicon.ico/favicon-16x16.png");
 }
@@ -937,8 +934,7 @@ ol, ul {
     font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif !important;
 }
 .section6-testimonial-wrapper .card .box-button{
-    height: 200px;
-    background: #65d9d8;
+    height: 200px;background: #65d9d8;
     color: #000;
 }
 .section6-testimonial-wrapper .card .box-button::before{
@@ -975,7 +971,7 @@ ol, ul {
 	color: #000;
     margin-top: 30px;
     margin-bottom: 0px;
-    text-align: justify;
+    text-align: left-justify;
     font-weight: 400;
 }
 .section6-testimonial-wrapper .card .box-area .img-area {
@@ -1242,6 +1238,7 @@ display: inline;
         font-size: 9px; 
         font-weight: 600; 
         margin-bottom:12px;
+        
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 5px;
@@ -2044,6 +2041,26 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
 }
+.style1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    clear: right;
+}
+.col-4 {
+
+}
+.style2 {
+
+}
 
 
+px-1 card-icon-title {
 
+-webkit-box-flex: 0;
+
+    -ms-flex: none;
+
+        flex: none
+    
+}
