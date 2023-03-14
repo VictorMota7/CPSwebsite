@@ -999,9 +999,9 @@ ol, ul {
             
 }
 .section6-testimonial-wrapper .card .box-area .img-area img {
-	height: 100%;
+	height: 75%;
 	border-radius: 50%;
-    margin-left: -11px;
+    /* margin-left: 0px */
 }
   #testimonial10{
     background: #e9317e; 
@@ -1489,7 +1489,8 @@ display: inline;
                 box-shadow: 0 5px 4px rgb(0 0 0 / 50%);
     }
     .section6-testimonial-wrapper .card .box-area .img-area img {
-        margin-left: -11px;
+        margin-left: 11px;
+        bottom: 10px
     }
     .section6-testimonial-wrapper .card .box-area .content {
         margin-top: 30px;
@@ -2202,5 +2203,28 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 
 .style21 {position: relative;top: -125px;
 }
+}
+
+
+.style22 {
+
+}
+
+
+.style23 {
+
+}
+
+
+.style24 {width: 15px;
+}
+
+
+.style25 {position: absolute;
+}
+
+
+.style26 {
+
 }
 
