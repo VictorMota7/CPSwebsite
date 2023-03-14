@@ -2020,7 +2020,7 @@ h6 a{
     color: #fff;
     height: 40px;
     border-radius: 50px;
-    border: 2px solid #fff;
+    border: .5px solid #fff;
     font-size: 14px;
     font-weight: 400;
 }
@@ -2119,4 +2119,35 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 
 .style12 {
 
+}
+
+
+.style13 {
+
+}
+
+
+.style14 {
+
+}
+
+
+.style15 {font-size: xx-small;
+}
+
+
+.style16 {font-size: smaller;
+}
+
+
+.style17 {
+
+}
+
+
+@media (min-width: 1400px) {
+
+
+.style11 {width: 40px;
+}
 }
