@@ -361,7 +361,7 @@
         </div>
     </div>
     <div class="section5-carousel-card-wrapper">
-        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true }'>
+        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true, "groupCells":4  }'>
             <div class="carousel-cell">
                 <div class="card img-fluid">
                     <img class="card-img-top" src="/assets/images/CPS-box-211x261.png" alt="Card image" style="width:100%;">
@@ -396,7 +396,7 @@
             </div>
             <div class="carousel-cell">
                 <div class="card img-fluid">
-                    <video autoplay="autoplay" muted loop controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/https-%20assets.mixkit.co%20videos%20preview%20mixkit-tree-with-yellow-flowers-1173-large.mp4%20type=%20video%20mp4%20.mp4">
+                    <video autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/https-%20assets.mixkit.co%20videos%20preview%20mixkit-tree-with-yellow-flowers-1173-large.mp4%20type=%20video%20mp4%20.mp4" id="video-player5">
                         <source src="https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4" type="video/mp4">
                     </video>
                     <div class="card-img-overlay">
@@ -774,6 +774,12 @@
 </div>
 <!-- Footer Ends Here -->
 <script>
-    document.getElementById('video-player1').controls = false;document.getElementById('video-player2').controls = false;document.getElementById('video-player3').controls = false;document.getElementById('video-player4').controls = false;
+    document.getElementById('video-player1').controls = false;
+    document.getElementById('video-player2').controls = false;
+    document.getElementById('video-player3').controls = false;
+    document.getElementById('video-player4').controls = false;
+
+    document.getElementById('video-player5').controls = false;
+
     //document.getElementsByClassName('video-player').controls = false;
 </script>
