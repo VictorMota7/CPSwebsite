@@ -1202,6 +1202,10 @@ display: inline;
     .container{
         max-width: 100% !important;
     }
+
+
+.style21 {position: relative;top: -125px;
+}
 }
 .flickity-prev-next-button.previous {
     left: 0px !important;
@@ -2150,4 +2154,53 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 
 .style11 {width: 40px;
 }
+
+
+.style18 {position: relative;top: -125px;left: 0px;
 }
+
+
+.style19 {position: relative;top: -125px;
+}
+}
+
+
+@media (min-width: 1200px) {
+
+
+.style18 {position: relative;top: -125px;
+}
+
+
+.style19 {position: relative;top: -125px;
+}
+}
+
+
+@media (min-width: 992px) {
+
+
+.style18 {position: relative;top: -125px;
+}
+
+
+.style19 {position: relative;top: -125px;
+}
+}
+
+
+@media (min-width: 768px) {
+
+
+.style19 {position: relative;
+}
+
+
+.style20 {position: relative;
+}
+
+
+.style21 {position: relative;top: -125px;
+}
+}
+
