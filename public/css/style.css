@@ -932,12 +932,15 @@ ol, ul {
    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif !important;
   
 }
-.section6-testimonial-wrapper .card .box-button{
+.section6-testimonial-wrapper .card .diamond1{
+    height: 200px;color: #000;
+}
+.section6-testimonial-wrapper .card .diamond2{
     height: 200px;color: #000;
 }
 #testimonial-2{background: #65d9d8
 }
-.section6-testimonial-wrapper .card .box-button::before{
+.section6-testimonial-wrapper .card .diamond1::before{
     width: 40px;
     height: 40px;
     position: absolute;
@@ -951,8 +954,22 @@ ol, ul {
             transform: rotate(45deg);
 
 }
-#testimonial-3{
-    background: #65d9d8;
+.section6-testimonial-wrapper .card .diamond2::before{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background: #d41f64;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+
+}
+#testimonial-4{
+    background: #d41f64;
 }
 .section6-testimonial-wrapper .card h5 {
 	font-size: 18px;
@@ -1000,8 +1017,7 @@ ol, ul {
 }
 .section6-testimonial-wrapper .card .box-area .img-area img {
 	height: 75%;
-	border-radius: 50%;
-    /* margin-left: 0px */
+	border-radius: 50%;margin-left: 0px;
 }
   #testimonial10{
     background: #e9317e; 
@@ -1048,6 +1064,9 @@ ol, ul {
   margin-right: 16px;
   counter-increment: gallery-cell;
   contain: content;
+}
+.flickity-slider{
+    scroll-behavior: smooth;
 }
 .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
     margin-left: -295px;
@@ -1323,6 +1342,7 @@ display: inline;
         min-width: 260px;
         min-height: 325px;
         margin-bottom: 16px;
+        max-width: 260px;
     }
     .section6-testimonial-wrapper .card .box-area .img-area{
         width: 50px;
@@ -1477,6 +1497,7 @@ display: inline;
     .section6-testimonial-wrapper .card{
         min-width: 305.9px;
         height: 382.2px;
+        max-width: 305.9px;
     }
     .section6-testimonial-wrapper .card .box-area {
         margin: 50px 20px 20px;
@@ -1716,6 +1737,7 @@ display: inline;
             min-width: 400px;
             height: 350.12px;
             margin-right: 16px;
+            max-width: 400px;
     }
     .section7 .container {
         margin-left: -20px;
@@ -1880,6 +1902,7 @@ display: inline;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 333px;
+        
     }
     .section5 .container {
         margin: 0 auto;
@@ -2206,25 +2229,5 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 }
 
 
-.style22 {
 
-}
-
-
-.style23 {
-
-}
-
-
-.style24 {width: 15px;
-}
-
-
-.style25 {position: absolute;
-}
-
-
-.style26 {
-
-}
 
