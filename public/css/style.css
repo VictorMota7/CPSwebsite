@@ -980,9 +980,6 @@ ol, ul {
 	/* text-transform: uppercase; */
 	letter-spacing: 1px;
     font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif !important;
-    
- 
-
 
 }
 .section6-testimonial-wrapper .card span {
@@ -1021,6 +1018,7 @@ ol, ul {
 }
   #testimonial10{
     background: #e9317e; 
+    
   }
 .section5-carousel-card-wrapper .card .card-img-overlay{
     padding: 20px 15px;
@@ -1079,9 +1077,12 @@ ol, ul {
     height: calc(100% - 49%);
     background-color: #fff;
 }
+/* AM: changed the height of the section here */
+.section4{margin-bottom: 94px;padding-top: 12px;padding-bottom: 69px;
+  
+}
 
-.section4{
-    margin-top: 250px;
+.section5{margin-bottom: 94px;padding-top: 12px;padding-bottom: 69px;
 }
 .section4-carousel-card-wrapper h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -1095,8 +1096,18 @@ display: inline;
     height: auto;
     border-radius: 20px;
     white-space: normal;
-    -webkit-box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
-            box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    -webkit-box-shadow: 0px 2.29px 10px rgb(0 0 0 / 85%);
+            /* box-shadow: 2px 4px 12px rgb(0 0 0 / 8%); */
+}
+
+/* AM: Adjusted card to show soft shadow */
+.section4-carousel-card-wrapper .carousel .carousel-cell {
+    bottom: 0px;
+    right: 48px;
+    left: 2px;
+    margin: 0px 20px 22px 5px;
+   
+    
 }
 .section4-carousel-card-wrapper .card .card-img-overlay{
     padding: 20px 15px;
@@ -1259,13 +1270,18 @@ display: inline;
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -65px;
     }
+
+    /* Am: changeded the section color */
     .section4{
         margin-top: 210px;
+        background-color: #f6e74c;
     }
     .section4-carousel-card-wrapper .card .card-icons{
         border: 1px solid; 
         border-radius: 10px; 
         height: 72px;
+        
+        
     }
     .section4-carousel-card-wrapper .card .card-icon-title{
         border: 1px solid rgba(0,0,0,.125); 
@@ -1300,6 +1316,14 @@ display: inline;
         line-height: 1.16;
         letter-spacing: 1.5px;
     }
+
+
+    /* Am: changeded the section color */
+    .section5{
+        margin-top: 210px;
+        background-color: #f6e74c;
+        
+    }
     .section5 {
         margin-top: 20px;
     }
@@ -1311,6 +1335,7 @@ display: inline;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 418px;
+        
     }
     .section5-carousel-card-wrapper .card .card-img-top{
         height: 325px !important;
@@ -1498,6 +1523,9 @@ display: inline;
         min-width: 305.9px;
         height: 382.2px;
         max-width: 305.9px;
+
+
+        
     }
     .section6-testimonial-wrapper .card .box-area {
         margin: 50px 20px 20px;
@@ -1702,8 +1730,11 @@ display: inline;
         width: 400px;
         height: 500px;
     }
+
+    /* AM: white background-color: white in the xcard with sm icons */
     .section4-carousel-card-wrapper .card .card-icons{
         height: 140px;
+        background-color: #ffffff;
     }
     .section4-carousel-card-wrapper .card .card-img-overlay {
         padding: 22px 25px;
@@ -1846,8 +1877,10 @@ display: inline;
     .section4-carousel-card-wrapper .card .card-content-desc {
         font-size: 20px;
     }
+
+    /* AM: joined section4 and section5 with yellow background */
     .section5 {
-        margin-top: 100px;
+        margin-top: -105px;
     }
     .heading3 {
         font-size: 28px;
@@ -2198,6 +2231,10 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 
 .style19 {position: relative;top: -125px;
 }
+
+
+.style22 {clear: none;float: none;position: absolute;bottom: 0px;
+}
 }
 
 
@@ -2229,5 +2266,25 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 }
 
 
+.style22 {position: absolute;clear: none;float: none;bottom: 338px;
+}
+
+
+.style23 {height: 50px;max-height: 50px;
+}
+
+
+.style24 {position: relative;height: 189px;
+}
+
+
+.style25 {height: 182px;position: relative;
+}
+
+    margin-bottom: 7px;
+    margin-right: 74px;
+    .style26 {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;margin-top: 12px;margin-bottom: 111px;margin-right: 24px;padding-top: 26px;padding-bottom: 0px;padding-right: 14px;
+
+}
 
 
