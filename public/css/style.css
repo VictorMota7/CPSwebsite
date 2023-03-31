@@ -1941,7 +1941,6 @@ display: inline;
         padding: 22px 25px;
     }
     .section5{
-      margin-top: 80px;
        margin-top: -139px;
     }
     .heading3 {
@@ -2330,7 +2329,7 @@ h6 a{
 
 
 .section-footer{
-    background-color: #0C1635;
+    background-color: #feffe6;
     color: #fff;
     border-radius: 10px;
     padding: 30px;
