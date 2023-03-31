@@ -8,7 +8,7 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: 300;
     overflow-y: scroll;
-    background-color: #f5f5f7;
+    background-color: #f6e64c;
 }
 html{
     scroll-behavior: smooth;
@@ -814,14 +814,17 @@ select {
     width: 170px;
     vertical-align: middle;
     font-weight: 400;
-    line-height: 1.3;
+    line-height: 16px;
     color: #212529;
-    background-color: #fff;
+    background-color: #f5f5f7;
     background-image: url(/assets/images/icon-dropdown.svg);
     background-repeat: no-repeat;
     background-position: right 0.75rem center;
     background-size: 16px 12px;
-    border: 1px solid #ced4da;
+    border: 1px solid #161616;
+    /* AM: gradients color */
+    background:-webkit-gradient(linear, left top, left bottom, from(rgb(245, 245, 245)), to(rgb(202, 201, 201)));
+    background:linear-gradient(180deg, rgb(245, 245, 245), rgb(202, 201, 201));
     border-radius: 0.25rem;
     -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
@@ -1273,6 +1276,7 @@ display: inline;
             transform: translateY(-50%);
     width: 100%;
     height: auto;
+    /* background-color: azure;:  */
 }
 .section3-wrapper .carousel .carousel-cell{
     height: auto;
@@ -1635,9 +1639,12 @@ display: inline;
     .section4-carousel-card-wrapper .carousel .carousel-cell {
         width: 331.9px;
     }
+
+    /* AM: adjust fluid image to allow d of drop-shadow */
     .section4-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 305.9px;
         height: 382.2px;
+       margin-bottom: 5px;
     }
     .section4-carousel-card-wrapper .card .card-icons{
         height: 90px;
@@ -2221,7 +2228,8 @@ display: inline;
         
     }
     .section6 {
-        margin-top: 100px;
+        margin-top: -9px;
+        background-color: #f6e74c;
     }
     .section6 .container {
         margin: 0 auto;
@@ -2232,6 +2240,7 @@ display: inline;
     }
     .section7 {
         margin-top: 100px;
+        background-color: #f6e74c;
     }
     .section7 .container {
         margin: 0 auto;
@@ -2246,6 +2255,7 @@ display: inline;
     }
     .section8 {
         margin-top: 100px;
+        background-color: #f6e74c;
     }
     .section8 .container {
         margin: 0 auto;
@@ -2329,7 +2339,7 @@ h6 a{
 
 
 .section-footer{
-    background-color: #feffe6;
+    background-color: #000;
     color: #fff;
     border-radius: 10px;
     padding: 30px;
@@ -2556,6 +2566,20 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 
 }
     .style27 {border-top-left-radius: 8px;border-top-right-radius: 8px;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;
+}
+    .style28 {
+
+}
+    .style29 {background-image: -webkit-gradient(linear, left bottom, left top, from(#737373), color-stop(70%, white));background-image: linear-gradient(0deg, #737373 0%, white 70%);
+
+}
+    .style30 {background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(white));background-image: linear-gradient(0deg, black 0%, white 100%);
+}
+    .style31 {background-image: -webkit-gradient(linear, left bottom, left top, from(#737373), color-stop(60%, white));background-image: linear-gradient(0deg, #737373 0%, white 60%);
+}
+    .style32 {background-color: #fff;background-image: -webkit-gradient(linear, left bottom, left top, from(#737373), color-stop(70%, white), to(white));background-image: linear-gradient(0deg, #737373 0%, white 70%, white 100%);
+}
+    .style33 {background-image: -webkit-gradient(linear, left bottom, left top, from(#737373), color-stop(0%, white), color-stop(1%, #737373), color-stop(64%, white));background-image: linear-gradient(0deg, #737373 0%, white 0%, #737373 1%, white 64%);
 }
 
 
