@@ -2488,8 +2488,7 @@ display: inline;
 }
 
 h6 a{
-    -webkit-text-decoration-line: none;
-            text-decoration-line: none;
+    text-decoration-line: none;
 }
 
 /* AM: CPS letter CYMK */
@@ -2764,6 +2763,18 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 .style17 {margin-left: 11px;padding-right: 0px;
 }
 *,*::before,*::after{-webkit-box-sizing:border-box;box-sizing:border-box}
-        
+ 
 
+.style19 {width: 50px;
+margin-top: 426px;
+margin-left: -18px;
+}
+ 
 
+.style18 {min-width: 300px;
+}
+ 
+
+.style20 {
+
+}
