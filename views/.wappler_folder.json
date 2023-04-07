@@ -10,5 +10,9 @@
   "test-carousel-v2.ejs": {
     "layoutPage": "main",
     "description": ""
+  },
+  "index4.ejs": {
+    "layoutPage": "main",
+    "description": ""
   }
 }

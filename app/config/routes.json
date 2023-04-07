@@ -19,6 +19,11 @@
       "path": "/test-carousel-v2",
       "page": "test-carousel-v2",
       "layout": "main"
+    },
+    {
+      "path": "/index4",
+      "page": "index4",
+      "layout": "main"
     }
   ]
 }
