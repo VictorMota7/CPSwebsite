@@ -1679,6 +1679,17 @@ display: inline;
         padding: 0px;
         margin-left: 4px;
      }
+
+     .section5 {
+       padding-top: 150px;
+       padding-bottom: 99px;
+       margin-top: -263px;
+     }
+
+      .section5-1 {
+        margin-top: -68px;
+       padding-bottom: 51px;
+     }
     .section5 select{
         width: 205px;
     }
@@ -1832,9 +1843,12 @@ display: inline;
     }
 }
 @media only screen and (min-width:360px){
-    .section5{
-    }
-
+    
+    .section5 {
+       padding-top: 150px;
+       padding-bottom: 99px;
+       margin-top: -263px;
+     }
      .section2 {
         margin-top: 60px;
         padding: 0px;
@@ -1886,12 +1900,13 @@ display: inline;
         margin-top:161px;
     }
     .section5 {
-        margin-top: -319px;
+        margin-top: -268px;
         padding-bottom: 64px;
     }
     .section5-1{
-        margin-top: -30px;
+        margin-top: -36px;
         padding-bottom: 64px;
+        padding-top: 6px;
     }
     .section6{
         margin-top: -32px;
@@ -1947,7 +1962,7 @@ display: inline;
         margin-left:-2px;
     }
      .section5 {
-        margin-top: -319px;
+        margin-top: -385px;
         padding-bottom: 64px;
     }
     .section5-1{
@@ -2003,7 +2018,7 @@ display: inline;
         margin-top:161px;
     }
      .section5 {
-        margin-top: -319px;
+        margin-top: -386px;
         padding-bottom: 64px;
     }
     .section5-1{
@@ -2059,7 +2074,7 @@ display: inline;
         margin-top:161px;
     }
      .section5 {
-        margin-top: -319px;
+        margin-top: -383px;
         padding-bottom: 64px;
     }
     .section5-1{
@@ -2145,7 +2160,8 @@ display: inline;
         font-size: 14px;
     }
     .section4 {
-        margin-top: 220px;
+        margin-top: 200px;
+        padding-top: 40px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -289px;
@@ -2494,7 +2510,7 @@ display: inline;
         width: 170px;
     }
     .section8 select{
-        width: 305px;
+        width: 100px;
     }
     .section7 {
         padding-top: 29px;
@@ -2618,7 +2634,7 @@ display: inline;
         height: 387.886px;
     }
     .section8 {
-        margin-top: -85px;
+        margin-top: -76px;
         padding-bottom: 131px;
     
     }
