@@ -1556,6 +1556,7 @@ display: inline;
     }
     .footer-logo p {
         font-size: 30px;
+        font-family: arial;
     }
 }
 @media only screen and (min-width:320px){
@@ -2145,7 +2146,9 @@ display: inline;
         width: 170px;
     }
     .section8 select{
-        width: 305px;
+        width: 174px;
+
+
     }
     .section7 {
         padding-top: 29px;
@@ -2305,24 +2308,6 @@ display: inline;
     .section3{
         margin-top: 100px;
     }
-    .section4 select {
-        width: 310px;
-    }
-    .section5 select{
-        width: 290px;
-    }
-    .section5-1 select{
-        width: 260px;
-    }
-    .section6 select{
-        width: 245px;
-    }
-    .section7 select{
-        width: 170px;
-    }
-    .section8 select{
-        width: 305px;
-    }
     .section7 {
         padding-top: 29px;
         margin-bottom: -68px;
@@ -2395,24 +2380,7 @@ display: inline;
     .section3{
         margin-top: 100px;
     }
-    .section4 select {
-        width: 310px;
-    }
-    .section5 select{
-        width: 290px;
-    }
-    .section5-1 select{
-        width: 260px;
-    }
-    .section6 select{
-        width: 245px;
-    }
-    .section7 select{
-        width: 170px;
-    }
-    .section8 select{
-        width: 305px;
-    }
+   
     .section7 {
         padding-top: 29px;
         margin-bottom: -68px;
@@ -2493,24 +2461,6 @@ display: inline;
      }
     .section3{
         margin-top: 100px;
-    }
-    .section4 select {
-        width: 310px;
-    }
-    .section5 select{
-        width: 290px;
-    }
-    .section5-1 select{
-        width: 260px;
-    }
-    .section6 select{
-        width: 245px;
-    }
-    .section7 select{
-        width: 170px;
-    }
-    .section8 select{
-        width: 100px;
     }
     .section7 {
         padding-top: 29px;
@@ -2645,10 +2595,7 @@ display: inline;
         width: 400px;
         height: 675.02px;
     }
-    .section-footer{
-        margin-top: -21px !important;
     
-    }
     
 }
 
@@ -2714,7 +2661,7 @@ video{
     border-radius: 0px;
     padding: 30px;
     font-family: Arial, sans-serif !important;
-    margin-top: -11px;
+  
 }
 .section-footer h5{
     font-family: Arial, sans-serif !important;
