@@ -1560,7 +1560,10 @@ display: inline;
     }
 }
 @media only screen and (min-width:320px){
-    
+
+    .carousel .flickity-prev-next-button{
+        display: none;
+    }
     .section5 {
         margin-top: -319px;
         padding-bottom: 64px;
@@ -1669,7 +1672,9 @@ display: inline;
     }    
 }
 @media only screen and (min-width:343px){
-    
+     .carousel .flickity-prev-next-button{
+        display: none;
+    }
     .style19 {
         width: 29px;
         margin-left: -11px;
@@ -1709,7 +1714,7 @@ display: inline;
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -100px;
     }
-    .section4 select{
+    /* .section4 select{
         width: 220px;
     }
     .section4-carousel-card-wrapper .carousel .carousel-cell {
@@ -1720,7 +1725,6 @@ display: inline;
     .section4 .carousel .flickity-prev-next-button {
         top: 35%;
     }
-    /* AM: adjust fluid image to allow d of drop-shadow */
     .section4-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 305.9px;
         height: 382.2px;
@@ -1730,7 +1734,7 @@ display: inline;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: 473px;
-    }
+    } */
 
     /* AM: section5 vertical alignment */
    
@@ -1844,7 +1848,9 @@ display: inline;
     }
 }
 @media only screen and (min-width:360px){
-    
+     .carousel .flickity-prev-next-button{
+        display: none;
+    }
     .section5 {
        padding-top: 150px;
        padding-bottom: 99px;
@@ -1866,6 +1872,32 @@ display: inline;
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left:-113px;
     }
+
+
+ .section4 select{
+        width: 220px;
+    }
+    .section4-carousel-card-wrapper .carousel .carousel-cell {
+    width: 323px;
+    height: 532px;
+    padding: 10px 8px 10px 10px;
+    }
+    .section4 .carousel .flickity-prev-next-button {
+        top: 35%;
+    }
+    /* AM: adjust fluid image to allow d of drop-shadow */
+    .section4-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 305.9px;
+        height: 382.2px;
+    }
+    .section4-carousel-card-wrapper .card .card-icons{
+        height: 90px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: 473px;
+    }
+
+
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: 460px;
     }
@@ -1886,6 +1918,11 @@ display: inline;
     }
 }
 @media only screen and (min-width:375px){
+     
+      .carousel .flickity-prev-next-button{
+        display: none;
+    }
+     
      .h1 {
        font-size: 48px;
      }
@@ -1943,6 +1980,12 @@ display: inline;
     }
 }
 @media only screen and (min-width:412px){
+    
+     .carousel .flickity-prev-next-button{
+        display: none;
+    }
+    
+    
     .h1 {
         font-size: 48px;
     }
@@ -2004,6 +2047,11 @@ display: inline;
     }
 }
 @media only screen and (min-width:540px){
+     .carousel .flickity-prev-next-button{
+        display: none;
+    }
+    
+    
     .h1 {
         font-size: 48px;
     }
@@ -2060,6 +2108,11 @@ display: inline;
     }
 }
 @media only screen and (min-width:576px){
+     .carousel .flickity-prev-next-button{
+        display: none;
+    }
+    
+    
     .h1 {
         font-size: 52px;
     }
@@ -2118,7 +2171,9 @@ display: inline;
 }
 
 @media only screen and (min-width:736px){
-     
+      .carousel .flickity-prev-next-button{
+        display: none;
+    }
     .heading1 {
         font-size: 48px;
     }
@@ -2297,6 +2352,11 @@ display: inline;
     }
 }
 @media only screen and (min-width:768px){
+     .carousel .flickity-prev-next-button{
+        display: none;
+    }
+    
+    
     .heading1 {
         font-size: 48px;
     }
@@ -2367,8 +2427,10 @@ display: inline;
     }
 }
 @media only screen and (min-width:820px){
-    
-        margin-left: -335px;
+     .carousel .flickity-prev-next-button{
+        display: none;
+    }
+     
     .heading1 {
         font-size: 48px;
     }
@@ -2444,6 +2506,11 @@ display: inline;
     }
 }
 @media only screen and (min-width:976px){
+     .carousel .flickity-prev-next-button{
+        display: none;
+    }
+    
+    
     .container{
     width: 1000px;
     margin: 0 auto;
@@ -2531,7 +2598,9 @@ display: inline;
     }
 }
 @media only screen and (min-width:1024px) {
-   
+    .carousel .flickity-prev-next-button{
+        display: block;
+    }
     .section2 {
         margin-top: 60px;
         padding: 0px;
@@ -2840,4 +2909,21 @@ padding-bottom: 21px !important;
 
 .style36 {margin-top: -118px;
 }
+}
+
+
+
+
+
+.dotm {
+  display: block;
+  background: url(https://conglomerateprintingservices.com/assets/videos/Mall-banner.mp4) no-repeat;
+  background-size: cover;
+}
+
+.dotm-overlay {
+  background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+  width: 100%;
+  height: 100%;
+background-size: 3px 3px;
 }
