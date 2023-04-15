@@ -1426,7 +1426,7 @@ display: inline;
         width: 108px;
     }
     .section7 select{
-        width: 250px;
+        width: 124px;
     }
     .section8 select{
         width: 250px;
@@ -1519,6 +1519,7 @@ display: inline;
     .section5-1{
         padding-top: 28px;
         padding-bottom: 27px;
+        margin-top:-85px;
         /* background-color: #65d9d8; */
     }
     .section5-1-carousel-card-wrapper .card .card-icons{
@@ -1670,6 +1671,7 @@ display: inline;
     padding-bottom: 41px;
     
     }
+    
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -87px;
     }
@@ -1783,10 +1785,10 @@ display: inline;
         width: 160px;
     }
     .section7 select{
-        width: 305px;
+        width: 176px;
     }
     .section8 select{
-        width: 305px;
+        width:  153px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -100px;
@@ -1889,7 +1891,7 @@ display: inline;
         font-size:48px;
     }
     .section7 {
-        margin-top:-129px;
+        margin-top: -118px;
      } 
     .section7-carousel-card-wrapper .carousel .carousel-cell {
         width: 323.9px;
@@ -1905,7 +1907,7 @@ display: inline;
         margin-left: -9px;
     }
     .section8 {
-     margin-top: -28px;
+     margin-top: -19px;
     padding-bottom: 41px;
     }
     .section8-carousel-card-wrapper .carousel .carousel-cell {
@@ -2291,21 +2293,19 @@ display: inline;
         width: 310px;
     }
     .section5 select{
-        width: 290px;
+        width:297px;
     }
     .section5-1 select{
-        width: 260px;
+        width:  274px;
     }
     .section6 select{
         width: 245px;
     }
     .section7 select{
-        width: 170px;
+        width: 270px;
     }
     .section8 select{
-        width: 174px;
-
-
+        width: 242px;
     }
     .section7 {
         padding-top: 29px;
@@ -2736,6 +2736,9 @@ display: inline;
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -278px;
     }
+    .section5-1{
+        margin-top: -3px;
+    }
     .section6 {
          margin-top: -5px;
         padding-bottom: 134px;
@@ -3050,6 +3053,8 @@ background-size: 2.7px 2.7px;
     border-color: black;
 }
 
-.style12 {
 
+
+.large-quote-top{
+    margin-top:
 }
