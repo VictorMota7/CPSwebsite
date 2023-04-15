@@ -59,10 +59,6 @@ background: rgb(247,248,248);
 background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgba(247,248,248,1)), color-stop(19%, rgba(255,232,5,1)), color-stop(25%, rgba(255,232,5,1)), color-stop(36%, rgba(116,219,195,1)), color-stop(45%, rgba(100,218,217,1)), color-stop(60%, rgba(255,232,5,1)), color-stop(72%, rgba(255,232,5,1)), color-stop(79%, rgba(255,232,5,1)), color-stop(83%, rgba(247,248,248,1)));
 background: linear-gradient(0deg, rgba(247,248,248,1) 10%, rgba(255,232,5,1) 19%, rgba(255,232,5,1) 25%, rgba(116,219,195,1) 36%, rgba(100,218,217,1) 45%, rgba(255,232,5,1) 60%, rgba(255,232,5,1) 72%, rgba(255,232,5,1) 79%, rgba(247,248,248,1) 83%);
 
-
-
-
-
 }
 html{
     scroll-behavior: smooth;
