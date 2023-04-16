@@ -502,6 +502,9 @@ margin: 0px;
             -ms-flex-pack: justify;
                 justify-content: space-between;
         list-style: none;
+
+        /* AMNAV */
+        background-color: #65d9d8;
     }
     nav .menu-icon-container {
         width: 20px;
@@ -693,6 +696,8 @@ margin: 0px;
     .nav-container nav {
         -webkit-transition: all 400ms ease;
         transition: all 400ms ease;
+        /* AM NAV */
+        background-color: #65d9d8;
     }
     .section2 {
         margin-top: 60px;
