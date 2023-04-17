@@ -2392,7 +2392,7 @@ display: inline;
     }
     .section5-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
-        height: 500px;
+        height: 492px;
     }
     .section5-carousel-card-wrapper .card .card-icons{
         height: 90px;
@@ -2409,7 +2409,7 @@ display: inline;
     }
     .section5-1-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
-        height: 500px;
+        height: 511px;
     }
 
     /* AM: white background-color: white in the xcard with sm icons */
@@ -2526,6 +2526,11 @@ display: inline;
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: 459px;
     }
+    .section5-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 400px;
+        height: 492px;
+    }
+    
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left:-167px;
     }
@@ -2586,6 +2591,11 @@ display: inline;
     .section4-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
         height: 500px;
+    }
+
+    .section5-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 400px;
+        height: 492px;
     }
      .style19{
         width: 50px;
@@ -2749,15 +2759,15 @@ display: inline;
         margin-left: -278px;
     }
     .section5-1{
-        margin-top: -3px;
+        margin-top: -2px;
     }
     .section6 {
-         margin-top: -5px;
+         margin-top: -18px;
         padding-bottom: 134px;
         padding-top: 17px;
     }
     .section7 {
-        margin-top:-129px;
+        margin-top: -126px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -273px
@@ -2770,7 +2780,7 @@ display: inline;
         height: 387.886px;
     }
     .section8 {
-        margin-top: -76px;
+        margin-top: -83px;
         padding-bottom: 131px;
     
     }
