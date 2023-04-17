@@ -1341,19 +1341,21 @@ display: inline;
         margin-left: 0px;
     }
    
-     .section2-1 {
-        margin-top: 30px;
+    .section2-1 {
+        padding-top: 18px;
     }
     .heading1{
         font-size: 36px;
     }
     .section2 {
-        margin-top: 60px;
+        margin-top: 0px;
         padding: 0px;
         margin-left: -7px;
+        padding-top: 39px;
     }
     .section3{
-        margin-top: 90px;
+        margin-top: 0px;
+        padding-top:  76px;
   
     }
     .section3 .carousel-title{
@@ -1367,9 +1369,9 @@ display: inline;
         top: 30%;
     }
     .section4{
-        margin-top: 161px;
-        padding-top: 17px;
-        padding-left: 6px;
+        margin-top: 0px;
+        padding-top: 102px;
+        
     }
     .section4 select{
         width: 180px;
@@ -1401,7 +1403,7 @@ display: inline;
         margin-bottom:12px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 413px;
+        margin-left:  415px;
     }
     .section4-carousel-card-wrapper .card .card-img-top{
         height: 320px !important;
@@ -1620,9 +1622,8 @@ display: inline;
     .section7 {
         margin-top: -119px;
      } 
-        .section2 {
-        margin-top: 60px;
-        padding: 0px;
+    .section2 {
+        padding-top: 45px;
         margin-left: 0px;
     }
     .heading1{
@@ -1646,7 +1647,7 @@ display: inline;
         margin-left: -87px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:  393px;
+        margin-left:  396px;
     }
     .section4-carousel-card-wrapper .card .card-img-top{
         height: 350px !important;
@@ -1716,6 +1717,7 @@ display: inline;
     }    
 }
 @media only screen and (min-width:343px){
+     
      .style19 {
         width: 37px;
         margin-left: -12px;
@@ -1735,9 +1737,13 @@ display: inline;
         margin-top: 271px;
     }
      .section2 {
-        margin-top: 60px;
-        padding: 0px;
+        Padding-top:  37px;
         margin-left: 4px;
+    }
+    .section3{
+        margin-top: 0px;
+        padding-top: 67px;
+
     }
     .section5 {
        padding-top: 150px;
@@ -1925,6 +1931,11 @@ display: inline;
         padding: 0px;
         margin-left: 4px;
      } 
+
+     .section3{
+        margin-top: 0px;
+        padding-top: 60px;
+     }
     .section6 {
     }
      .section7 {
@@ -1963,7 +1974,7 @@ display: inline;
 
 
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 460px;
+        margin-left: 464px;
     }
 
 
@@ -2018,11 +2029,12 @@ display: inline;
         padding: 0px;
         margin-left: -3px;
     }
-    .section3 {
-        
+    .section3{
+        margin-top: 0px;
+        padding-top: 60px;
     }
     .section4{
-        margin-top:161px;
+        padding-top:97px;
     }
     .section5 {
         margin-top: -381px;
@@ -2048,7 +2060,7 @@ display: inline;
         margin-left: -117px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 456px;
+        margin-left:459px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left:  461px;
@@ -2088,11 +2100,12 @@ display: inline;
         padding: 0px;
         margin-left: -3px;
     }
-    .section3 {
-        margin-top: 60px; 
+    .section3{
+        margin-top: 0px;
+        padding-top: 60px;
     }
     .section4{
-        margin-top:161px;
+        padding-top:99px;
     }
     .section2 {
         margin-top: 60px;
@@ -2122,7 +2135,7 @@ display: inline;
         margin-left: -135px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 437px;
+        margin-left: 440px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left:443px;
@@ -2162,11 +2175,12 @@ display: inline;
         padding: 0px;
         margin-left: -3px;
     }
-    .section3 {
-        margin-top: 60px; 
+    .section3{
+        margin-top: 0px;
+        padding-top: 78px;
     }
     .section4{
-        margin-top:161px;
+        padding-top:111px;
     }
      .section5 {
         margin-top: -386px;
@@ -2191,7 +2205,7 @@ display: inline;
         margin-left: -201px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{ 
-        margin-left: 372px;
+        margin-left: 374px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 376px;
@@ -2229,13 +2243,14 @@ display: inline;
     .section2 {
         margin-top: 60px;
         padding: 0px;
-        margin-left:  0px;
+        margin-left: -23px;
     }
-    .section3 {
-        margin-top: 60px; 
+    .section3{
+        margin-top: 0px;
+        padding-top:  71px;
     }
     .section4{
-        margin-top:161px;
+        padding-top:113px;
     }
      .section5 {
         margin-top: -383px;
@@ -2257,10 +2272,10 @@ display: inline;
         padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -215px;
+        margin-left: -209px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{ 
-        margin-left: 361px;
+        margin-left:363px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 365px;
@@ -2294,12 +2309,12 @@ display: inline;
         font-size: 48px;
     }
      .section2 {
-        margin-top: 60px;
-        padding: 0px;
-        margin-left: 9px;
+        padding-top: 0px;
+        margin-left:-182px;
      }
     .section3{
-        margin-top: 100px;
+        margin-top: 0px;
+        padding-top: 100px;
     }
     .section4 select {
         width: 310px;
@@ -2332,8 +2347,7 @@ display: inline;
         font-size: 14px;
     }
     .section4 {
-        margin-top: 200px;
-        padding-top: 40px;
+        padding-top: 106px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -289px;
@@ -2346,7 +2360,7 @@ display: inline;
         min-height: 550px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 479px;
+        margin-left: 483px;
     }
     .section4-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
@@ -2475,12 +2489,12 @@ display: inline;
         font-size: 48px;
     }
      .section2 {
-        margin-top: 60px;
-        padding: 0px;
-        margin-left: 9px;
+        padding-top: 0px;
+        margin-left: -41px;
      }
     .section3{
-        margin-top: 100px;
+        margin-top: 0px;
+        padding-top: 100px;
     }
     .section7 {
         padding-top: 29px;
@@ -2493,7 +2507,7 @@ display: inline;
         font-size: 14px;
     }
     .section4 {
-        margin-top: 220px;
+        padding-top: 114px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -289px;
@@ -2521,7 +2535,7 @@ display: inline;
         margin-left: -304px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:457px;
+        margin-left:458px
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: 459px;
@@ -2554,12 +2568,12 @@ display: inline;
         font-size: 48px;
     }
      .section2 {
-        margin-top: 60px;
-        padding: 0px;
-        margin-left: 9px;
+        padding-top: 0px;
+        margin-left: -81px;
      }
     .section3{
-        margin-top: 100px;
+        margin-top: 0px;
+        padding-top: 81px;
     }
    
     .section7 {
@@ -2573,7 +2587,7 @@ display: inline;
         font-size: 14px;
     }
     .section4 {
-        margin-top: 220px;
+        padding-top: 110px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -289px;
@@ -2603,10 +2617,10 @@ display: inline;
         margin-left: -18px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -324px;
+        margin-left: -325px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:441px;
+        margin-left:444px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: 443px;
@@ -2646,12 +2660,12 @@ display: inline;
         font-size: 48px;
     }
      .section2 {
-        margin-top: 60px;
-        padding: 0px;
-        margin-left:38px;
+        padding-top: 0px;
+        margin-left:-178px;
      }
     .section3{
-        margin-top: 100px;
+        margin-top: 0px;
+        padding-top: 100px;
     }
     .section7 {
         padding-top: 29px;
@@ -2726,21 +2740,21 @@ display: inline;
         display: block;
     }
     .section2 {
-        margin-top: 60px;
-        padding: 0px;
-        margin-left: 26px;
+        padding-top: 0px;
+        margin-left: 4px;
     }
     .section3{
-        margin-top: 140px;
+        margin-top: 0px;
+        padding-top: 93px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -418px;
+        margin-left: -408px;
     }
     .section4 {
-        margin-top: 280px;
+        padding-top:66px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 344px;
+        margin-left: 355px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 351px;
