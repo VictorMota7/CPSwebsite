@@ -707,6 +707,7 @@ margin: 0px;
     }
     /* Nav Animation */
     .nav-container nav {
+         width: 1000px;
         -webkit-transition: all 400ms ease;
         transition: all 400ms ease;
         /* AM NAV */
@@ -1364,7 +1365,7 @@ display: inline;
     .section2 {
         margin-top: 0px;
         margin-left: -7px;
-        padding: 39px 0px 0px;
+        padding: 34px 0px 0px;
     }
     .section3{
         margin-top: 0px;
@@ -1636,7 +1637,7 @@ display: inline;
         margin-top: -119px;
      } 
     .section2 {
-        padding-top: 45px;
+        padding-top: 38px;
         margin-left: 0px;
     }
     .heading1{
@@ -1940,8 +1941,7 @@ display: inline;
        margin-top: -382px;
      }
      .section2 {
-        margin-top: 60px;
-        padding: 0px;
+        padding-top: 35px;
         margin-left: 4px;
      } 
 
@@ -2039,9 +2039,8 @@ display: inline;
      }
     .section2 {
         margin-top: 1px;
-        padding: 0px;
         margin-left: -3px;
-        padding-top: 38px;
+        padding: 38px 0px 0px;
     }
     .section3{
         margin-top: 0px;
@@ -2110,8 +2109,7 @@ display: inline;
         font-size: 48px;
     }
     .section2 {
-        margin-top: 60px;
-        padding: 0px;
+         padding-top: 60px;
         margin-left: -3px;
     }
     .section3{
@@ -2122,8 +2120,7 @@ display: inline;
         padding-top:99px;
     }
     .section2 {
-        margin-top: 60px;
-        padding: 0px;
+        padding-top: 35px;
         margin-left:-2px;
     }
      .section5 {
@@ -2185,8 +2182,7 @@ display: inline;
         font-size: 48px;
     }
     .section2 {
-        margin-top: 60px;
-        padding: 0px;
+        padding-top:  34px;
         margin-left: -3px;
     }
     .section3{
@@ -2255,7 +2251,7 @@ display: inline;
         font-size: 52px;
     }
     .section2 {
-        margin-top: 60px;
+        margin-top: 35px;
         padding: 0px;
         margin-left: -23px;
     }
@@ -2513,7 +2509,7 @@ display: inline;
         font-size: 48px;
     }
      .section2 {
-        padding-top: 0px;
+        padding-top: 5px;
         margin-left: -41px;
      }
     .section3{
@@ -2584,6 +2580,14 @@ display: inline;
     }
 }
 @media only screen and (min-width:820px){
+     
+     .nav-container nav {
+         width: 779px;
+        -webkit-transition: all 400ms ease;
+        transition: all 400ms ease;
+        /* AM NAV */
+     
+     }
      .carousel .flickity-prev-next-button{
         display: none;
     }
@@ -2760,6 +2764,14 @@ display: inline;
     }
 }
 @media only screen and (min-width:1024px) {
+    
+    .nav-container nav {
+         width: 922px;
+        -webkit-transition: all 400ms ease;
+        transition: all 400ms ease;
+    }
+    
+    
     .carousel .flickity-prev-next-button{
         display: block;
     }
@@ -3044,6 +3056,8 @@ padding-bottom: 21px !important;
 
 
 .style36 {margin-top: -182px;
+}
+.style13 {clear: none;
 }
 
 
