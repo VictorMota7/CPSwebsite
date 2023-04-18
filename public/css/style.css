@@ -89,7 +89,7 @@ nav .desktop-nav li a:hover {
 }
 
 .link-search {
-    background: url('../assets/images/search-icon.svg');
+    background: url('../assets/icons/search-icon-black.svg');
     display: block;
     background-position: center;
     background-size: 18px;
@@ -99,7 +99,7 @@ nav .desktop-nav li a:hover {
 }
 
 .link-bag {
-    background: url('../assets/images/bag-icon.svg');
+    background: url('../assets/images/bag-icon-black.svg');
     display: block;
     background-position: center;
     background-size: 17px;
