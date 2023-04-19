@@ -32,7 +32,6 @@ html{
     background: rgba(0, 0, 0, 9.5);
     height: 44px;
     z-index: 300;
-    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -2495,7 +2494,9 @@ display: inline;
     }
 }
 @media only screen and (min-width:768px){
-      
+      .nav-container {
+          position: fixed;
+      }
    .mt-6 {
         padding-top: 23px !important;
         margin-top: -2px;
@@ -3144,3 +3145,12 @@ background-size: 2.7px 2.7px;
 .textblue{
 background-color: blue;
 }
+
+.speedofcarouselanimation{
+
+    autoPlay: true
+}
+
+
+
+
