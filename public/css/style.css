@@ -3177,7 +3177,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: rgb(245, 241, 241);
+  background-color: #ffffff;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -3202,7 +3202,7 @@ body {
 
 .navbar a.active {
   /* background-color: #04AA6D; */
-  color: white;
+  color: #ffffff;
 }
 
 .main {
