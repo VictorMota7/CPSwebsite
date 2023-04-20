@@ -1,5 +1,31 @@
 /* CSS Document */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Desktop Nav */
 
 .nav-container {background: rgba(0, 0, 0, 9.5);
@@ -677,6 +703,18 @@ margin: 0px;
     .mobile-search-container .quick-links ul li a:hover {
         color: #2997ff;
     }
+
+    
+    
+    
+    }
+    .section2 {
+        margin-top: 60px;
+        padding: 0px;
+        margin-left: 4px;
+    }
+    
+    /* I dont know what this is????? */
     /* Nav Animation */
     .nav-container nav {
          width: 1000px;
@@ -684,10 +722,5 @@ margin: 0px;
         transition: all 400ms ease;
         /* AM NAV */
         /* background-color: #65d9d8; */
-    }
-    .section2 {
-        margin-top: 60px;
-        padding: 0px;
-        margin-left: 4px;
-    }
+    
 }
