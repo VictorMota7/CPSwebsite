@@ -774,6 +774,7 @@ ol, ul {
         color: #000;
         font-weight: bold;
         text-align: left;
+        line-height: 52px;
     }
     .heading3{ 
         font-size: 32px;
@@ -1201,7 +1202,7 @@ select {
 }
 .section4-carousel-card-wrapper h3{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.1;
+    line-height: 31px;
 font-weight: 600;
 letter-spacing: 0.5px;
 display: inline;
