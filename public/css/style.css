@@ -9,6 +9,7 @@ body {
     overflow-y: scroll;
     
     
+    
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(19%, rgba(255,232,5,1)), color-stop(27%, rgba(255,232,5,1)), color-stop(36%, rgba(116,219,195,1)), color-stop(45%, rgba(100,218,217,1)), color-stop(60%, rgba(255,232,5,1)), color-stop(72%, rgba(255,232,5,1)), color-stop(79%, rgba(255,232,5,1)), color-stop(83%, rgba(247,248,248,1)));
@@ -37,11 +38,11 @@ html{
 .nav-container nav {
     width: 100%;
     margin: 0 auto;
-    padding: 0 8px;
+    padding: 0 18px;
     height: 100%;
 }
 .container-md, .container-sm, .container {
-    /* max-width: 100%; */
+    max-width: 100%;
 }
 
 
@@ -708,7 +709,7 @@ margin: 0px;
     .section2 {
         margin-top: 60px;
         padding: 0px;
-        margin-left: 4px;
+       
     }
     
     /* I dont know what this is?????  */
@@ -1376,7 +1377,6 @@ display: inline;
     }
     .section2 {
         margin-top: 0px;
-        margin-left: -7px;
         padding: 34px 0px 0px;
     }
     .section3{
@@ -1650,7 +1650,7 @@ display: inline;
      } 
     .section2 {
         padding-top: 38px;
-        margin-left: 0px;
+      
     }
     .heading1{
         font-size: 46px;
@@ -1764,7 +1764,7 @@ display: inline;
     }
      .section2 {
         Padding-top:  37px;
-        margin-left: 4px;
+        
     }
     .section3{
         margin-top: 0px;
@@ -1954,7 +1954,7 @@ display: inline;
      }
      .section2 {
         padding-top: 35px;
-        margin-left: 4px;
+        
      } 
 
      .section3{
@@ -2051,7 +2051,7 @@ display: inline;
      }
     .section2 {
         margin-top: 1px;
-        margin-left: -3px;
+       
         padding: 38px 0px 0px;
     }
     .section3{
@@ -2122,7 +2122,7 @@ display: inline;
     }
     .section2 {
          padding-top: 60px;
-        margin-left: -3px;
+       
     }
     .section3{
         margin-top: 0px;
@@ -2133,7 +2133,7 @@ display: inline;
     }
     .section2 {
         padding-top: 35px;
-        margin-left:-2px;
+     
     }
      .section5 {
         margin-top: -366px;
@@ -2195,7 +2195,6 @@ display: inline;
     }
     .section2 {
         padding-top:  34px;
-        margin-left: -3px;
     }
     .section3{
         margin-top: 0px;
@@ -2265,7 +2264,7 @@ display: inline;
     .section2 {
         margin-top: 35px;
         padding: 0px;
-        margin-left: -23px;
+        
     }
     .section3{
         margin-top: 0px;
@@ -2332,7 +2331,7 @@ display: inline;
     }
      .section2 {
         padding-top: 0px;
-        margin-left:-182px;
+      
      }
     .section3{
         margin-top: 0px;
@@ -2524,7 +2523,7 @@ display: inline;
     }
      .section2 {
         padding-top: 5px;
-        margin-left: -41px;
+       
      }
     .section3{
         margin-top: 0px;
@@ -2602,6 +2601,9 @@ display: inline;
         /* AM NAV */
      
      }
+     .container{
+         width: 779px;
+     }
      .carousel .flickity-prev-next-button{
         display: none;
     }
@@ -2611,7 +2613,7 @@ display: inline;
     }
      .section2 {
         padding-top: 0px;
-        margin-left: -81px;
+       
      }
     .section3{
         margin-top: 0px;
@@ -2692,7 +2694,7 @@ display: inline;
     
     
     .container{
-    width: 1000px;
+    
     margin: 0 auto;
     padding: 0 8px;
     height: 100%;
@@ -2703,7 +2705,7 @@ display: inline;
     }
      .section2 {
         padding-top: 0px;
-        margin-left:-178px;
+        
      }
     .section3{
         margin-top: 0px;
@@ -2784,14 +2786,16 @@ display: inline;
         -webkit-transition: all 400ms ease;
         transition: all 400ms ease;
     }
-    
+    .container{
+        width:922px;
+    }
     
     .carousel .flickity-prev-next-button{
         display: block;
     }
     .section2 {
         padding-top: 0px;
-        margin-left: 4px;
+        
     }
     .section3{
         margin-top: 0px;
@@ -3205,7 +3209,9 @@ background-color: blue;
 
 .btn-success {
    width: 140px;
-   
+   /* background-color: #65d9d8 !important;
+   border-color: #FFEB3B !important;
+    */
 }
 
 
