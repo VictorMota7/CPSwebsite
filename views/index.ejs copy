@@ -12,7 +12,6 @@
 <div class="nav-container">
     <nav class="nav-behavior" id="navid">
         <ul class="mobile-nav">
-
             <li>
                 <div class="menu-icon-container style13">
                     <div class="menu-icon">
@@ -232,7 +231,7 @@
     <div class="container ">
         <div class="row mx-0 style13">
             <div class="col-12 px-0 mb-2 style12 mb-md-auto pt-md-0 pb-md-0 col-lg-12">
-                <h3 class="heading3" id="Latest"><span class="shop-header">CPS latest: brilliant ideas </span>
+                <h3 class="heading3" id="Latest"><span class="shop-header">CPSlatest: where brilliant ideas are printed:</span>
                 </h3>
             </div>
         </div>
@@ -337,8 +336,13 @@
     <div class="container px-2 px-sm-3">
 
         <div class="row mx-0">
-            <div class="col-12 col-lg-12 px-0 mb-2 ">
-                <h3 class="heading3" id="Latest"><span class="shop-header">CPS: From superior to sublime customer service, the power of expertice and resources combine. </span>
+            <div class="col-12 col-lg-12 px-0 mb-2 visually-hidden">
+                <h3 class="heading3"><span class="shop-header">Choose:</span>&nbsp;<select style="background: linear-gradient(0deg, #737373 0%, white 70%, white 100%);">
+                        <option>All</option>
+                        <option>T-Shirt</option>
+                        <option>Bags</option>
+                        <option>Cap</option>
+                    </select>
                 </h3>
                 <p class="card-text text-light visually-hidden d-print-none">CUSTOM MADE FOR YOUR BRAND</p>
                 <p class="card-title text-light visually-hidden d-print-none">Creative community make creat boxes</p>
@@ -949,37 +953,29 @@
 <!-- Section8 Individual Plan Carousel End -->
 <div class="navbar pb-0 border border-top-1 ">
     <div class="d-flex justify-content-center w-100">
-        <div class="flex-column justify-content-center px-3">
-            <img src="/assets/images/Design-CPS-icon.svg" width="35px">
-            <p class="mb-0">Design</p>
+        <div class="flex-column px-3">
+            <img src="/assets/images/Heart-icon.jpg" width="30px">
+            <p class="mb-0">Follow</p>
         </div>
-        <div class="flex-column justify-content-center px-2">
-            <img src="/assets/images/Share-CPS-icon.svg" width="35px">
+        <div class="flex-column px-3">
+            <img src="/assets/images/call-icon.svg" width="30px">
+            <p class="mb-0">Call</p>
+        </div>
+        <div class="flex-column px-3">
+            <img src="/assets/images/mail-icon.svg" width="30px">
+            <p class="mb-0">Email</p>
+        </div>
+        <div class="flex-column px-3">
+            <img src="/assets/images/share-icon.svg" width="30px" title="">
             <p class="mb-0">Share</p>
-        </div>
-        <div class="text-center">
-            <div class="flex-column px-4">
-                <img src="/assets/images/Account-icon.svg" width="35px">
-                <p class="mb-0">Account</p>
-            </div>
-        </div>
-        <div class="text-center">
-            <div class="flex-column d-flex justify-content-center px-2">
-                <img src="/assets/images/email CPS-icon.svg" width="35px" title="">
-                <p class="mb-0">Email</p>
-            </div>
-        </div>
-        <div class="flex-column justify-content-center px-3">
-            <img src="/assets/images/orders-icon2.svg" width="35px" title="">
-            <p class="mb-0">Orders</p>
         </div>
     </div>
     <div class="row mx-0 w-100 py-1">
         <div class="col-6 col-xs-6 col-md-6 col-lg-6 px-1">
-            <button type="button" class="btn btn-success float-end bg-info">Get a quote</button>
+            <button type="button" class="btn btn-success float-end">Get a quote</button>
         </div>
         <div class="col-6 col-xs-6 col-md-6 col-lg-6 px-1">
-            <button type="button" class="btn btn-success bg-info">800-823-9133</button>
+            <button type="button" class="btn btn-success">800-823-9133</button>
         </div>
     </div>
 </div>
