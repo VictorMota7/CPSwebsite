@@ -701,16 +701,24 @@ margin: 0px;
     .mobile-search-container .quick-links ul li a:hover {
         color: #2997ff;
     }
-
-    
-    
-    
-    }
     .section2 {
         margin-top: 60px;
         padding: 0px;
-       
+    /* }
+    .section3 {
+    }  
+    .section4 {
+    }  
+    .section5 {
+    }  
+    .section5-1 {    
     }
+    .section6 {
+    }
+    .section7 {
+     } 
+    .section8 { */
+}
     
     /* I dont know what this is?????  */
     /* Nav Animation */
@@ -719,10 +727,10 @@ margin: 0px;
         -webkit-transition: all 400ms ease;
         transition: all 400ms ease;
         /* AM NAV */
-        /* background-color: #65d9d8; */
+    }   /* background-color: #65d9d8; */
     
 }
-
+/* END OF @media 768px line 437-720 */
 
 
 ol, ul {
@@ -1298,7 +1306,7 @@ display: inline;
     letter-spacing: -.016em;
     display: block;
     color: #1d1d1f;
-    text-align: left;
+    text-align: center;
     white-space: nowrap;
     margin-top: 0.75rem!important;
     margin-bottom: 0.5rem!important;
@@ -1329,9 +1337,9 @@ display: inline;
 }
 
 .section3-wrapper .carousel .carousel-cell img{
-    max-height: 79.1px;
-    margin-left: -20px;
-    max-width: 99.2px;
+        max-height: 83.1px;
+        /* margin-left: -20px; */
+        max-width: 100%;
 }
 .style21 {position: relative;top: -125px;
 }
@@ -3158,10 +3166,9 @@ background-size: 2.7px 2.7px;
 background-color: blue;
 }
 
-.speedofcarouselanimation{
-
+/* .speedofcarouselanimation{
     autoPlay: true
-}
+} */
 
 
 
