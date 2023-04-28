@@ -784,7 +784,7 @@ ol, ul {
         font-size: 32px;
         line-height: 1.1;
         font-weight: 600;
-        letter-spacing:.5px;
+        letter-spacing: 0.5px;
         font-family: Arial, Helvetica, sans-serif;
         display: inline;
         margin-top: -18px;
@@ -2512,10 +2512,10 @@ display: inline;
       .nav-container {
           /* position: fixed; */
       }
-   .mt-6 {
+    .mt-6 {
         padding-top: 23px !important;
         margin-top: -2px;
-   }
+    }
       
       nav .desktop-nav li a {
         color: black;
@@ -3065,25 +3065,32 @@ margin-right: 74px;
 }
 .style36 {margin-top: -104px;
 }
-
-.py-2-footer{
+/* .py-2-footer{
 padding-top: 10px !important;
 padding-bottom: 21px !important;
-background-color: white;
-}
+} */
 
 
 /* 320, 343 */
+
+
 @media (min-width: 576px) {
+
+
 .style38 {margin-top: -180px;
 }
 
+
 .style36 {margin-top: -182px;
 }
-
 .style13 {clear: none;
 }
+
+
+
+
 }
+
 
 .style2 {margin-bottom: 14px;
 }
@@ -3171,7 +3178,6 @@ background-color: blue;
   background-color: #ffffff;
   position: fixed;
   bottom: 0;
-  right: 0;
   width: 100%;
   border: 10px;
   border-style: black;
@@ -3179,21 +3185,18 @@ background-color: blue;
 
 .navbar a {
   float: left;
-  /* display: block;
+  display: block;
   color: #030303;
   text-align: center;
-  padding: 14px 16px; */
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 14px;
 }
 
-/* HOVER COLOR CHANGE  */
-
-.bottom-phone .btn-success:hover{
-    background-color: #fbff00;
-    color: black;
+.navbar a:hover {
+  background: #f1f1f1;
+  color: rgb(129, 21, 21);
 }
-
 .d-flex .flex-column p{
     font-size: 12px;
 }
@@ -3216,9 +3219,9 @@ background-color: blue;
     */
 }
 
-.wappler-temp {
+/* .wappler-temp {
 
-}
+} */
 
 .:hover {background-color: #ffc107;color: #ffc107;
 }

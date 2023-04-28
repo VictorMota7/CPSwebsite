@@ -784,7 +784,7 @@ ol, ul {
         font-size: 32px;
         line-height: 1.1;
         font-weight: 600;
-        letter-spacing:.5px;
+        letter-spacing: 0.5px;
         font-family: Arial, Helvetica, sans-serif;
         display: inline;
         margin-top: -18px;
@@ -1035,7 +1035,7 @@ select {
     font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif !important;
 }
 .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-    margin-left: -295px;
+    
 }
 .section6-testimonial-wrapper .card span {
 	color: #262626;
@@ -1089,7 +1089,7 @@ select {
 .section5-1-carousel-card-wrapper .card .card-img-overlay{
     padding: 20px 15px;
 }
-.section5-1-carousel-card-wrapper .card .card-text{
+.section5-1-carousel-card-wrapper .card .card-text {
     font-size: 12px;
     line-height: 1.33337;
     letter-spacing: -.01em;
@@ -1126,9 +1126,9 @@ select {
   contain: content;
 }
 /* .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-    margin-left: -295px;
+    
 } */
-.section5-carousel-card-wrapper .card .card-text{
+.section5-carousel-card-wrapper .card .card-text {
     font-size: 12px;
     line-height: 1.33337;
     letter-spacing: -.01em;
@@ -1173,7 +1173,7 @@ select {
     scroll-behavior: smooth;
 }
 .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-    margin-left: -295px;
+    
 }
 /*AM deleted from the below array: section5*/
  .horizantal-image {
@@ -1221,7 +1221,7 @@ display: inline;
 .section4-carousel-card-wrapper .card .card-img-overlay{
     padding: 20px 15px;
 }
-.section4-carousel-card-wrapper .card .card-text{
+.section4-carousel-card-wrapper .card .card-text {
     font-size: 12px;
     line-height: 1.33337;
     letter-spacing: -.01em;
@@ -1266,7 +1266,7 @@ display: inline;
     /* margin: 10px 18px 10px 10px; */
 }
 .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-    margin-left: -295px;
+   
 }
 .section3 .carousel .carousel-cell img{
     max-width: 100%;
@@ -1293,7 +1293,7 @@ display: inline;
     height: auto;
     /* background-color: azure;:  */
 }
-.section3-wrapper .carousel .carousel-cell{
+.section3-wrapper .carousel .carousel-cell {
     height: auto;
     padding: 5px;
     margin: 0px;
@@ -1333,7 +1333,7 @@ display: inline;
     display: none;
 } */
 .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-    margin-left: -415px;
+   
 }
 
 .section3-wrapper .carousel .carousel-cell img{
@@ -1396,7 +1396,7 @@ display: inline;
         font-size: 12px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -65px;
+        
     /* margin-top: -83px; */
     }
     .section4 .carousel .flickity-prev-next-button {
@@ -1437,7 +1437,7 @@ display: inline;
         margin-bottom:12px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left:  415px;
+        
     }
     .section4-carousel-card-wrapper .card .card-img-top{
         height: 320px !important;
@@ -1472,7 +1472,7 @@ display: inline;
         font-size: 22px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 414px;
+        
     }
     .card-horizantal{
         border: 0px solid rgba(0,0,0,.125); 
@@ -1489,7 +1489,7 @@ display: inline;
     .section5-carousel-card-wrapper .card .card-img-top{
         height: 325px !important;
     }
-    .section5-carousel-card-wrapper .carousel .carousel-cell{
+    .section5-carousel-card-wrapper .carousel .carousel-cell {
         min-height: 350px;
         padding: 10px 6px 10px 10px;
     }
@@ -1528,7 +1528,7 @@ display: inline;
         margin-bottom:12px;
     }
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -1px;
+       
     }
     .section5-1-carousel-card-wrapper .card .card-img-top{
         height: 320px !important;
@@ -1556,9 +1556,9 @@ display: inline;
         letter-spacing: 1.5px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left:  0px;
+       
     }
-    .section6-testimonial-wrapper .carousel .carousel-cell{
+    .section6-testimonial-wrapper .carousel .carousel-cell {
         min-height: 350px;
         padding:10px 6px 10px 10px;
     }
@@ -1601,11 +1601,11 @@ display: inline;
         width: 260px;
         height: 325px;
     }
-    .section7-carousel-card-wrapper .card .card-img-top {
+    .section7-carousel-card-wrapper .card .card-img-top{
         height: 325px !important;
     }
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 0px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section8 {
         margin-top: -65px;
@@ -1619,11 +1619,10 @@ display: inline;
         width: 260px;
         height: 425px;
     }
-    .section8-carousel-card-wrapper .card .card-img-top {
+    .section8-carousel-card-wrapper .card .card-img-top{
         height: 425px !important;
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 0px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
     }
     .footer-logo p {
         font-size: 30px;
@@ -1678,10 +1677,10 @@ display: inline;
     }
     
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -87px;
+       
     }
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 398px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section4-carousel-card-wrapper .card .card-img-top{
         height: 350px !important;
@@ -1699,8 +1698,8 @@ display: inline;
         line-height: 1.2356;
         letter-spacing: 1.5px;
     }
-    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 396px;
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
     .section5-carousel-card-wrapper .card .card-img-top{
         height: 350px !important;
@@ -1718,8 +1717,8 @@ display: inline;
         line-height: 1.2356;
         letter-spacing: 1.5px;
     }
-    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -18px;
+    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section5-1-carousel-card-wrapper .card .card-img-top{
         height: 350px !important;
@@ -1738,13 +1737,13 @@ display: inline;
         letter-spacing: 1.5px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left:  -17px;
+        
     }
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -17px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -16px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+     
     }
     .footer-logo p {
         font-size: 32px;
@@ -1805,7 +1804,7 @@ display: inline;
         width:  153px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -100px;
+        
     }
     /* .section4 select{
         width: 220px;
@@ -1825,8 +1824,8 @@ display: inline;
     .section4-carousel-card-wrapper .card .card-icons{
         height: 90px;
     }
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 473px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     } */
 
     /* AM: section5 vertical alignment */
@@ -1847,12 +1846,12 @@ display: inline;
         width: 305.9px;
         height: 375.2px;
     }
-    .section5-carousel-card-wrapper .card .card-img-top {
+    .section5-carousel-card-wrapper .card .card-img-top{
         height: 382.2px !important;
         
     }
-    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 477px;
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section5-1-carousel-card-wrapper .carousel .carousel-cell {
         width: 323.9px;
@@ -1865,16 +1864,16 @@ display: inline;
     .section5-1-carousel-card-wrapper .card .card-icons{
         height: 106px;
     }
-    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -9px;
+    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section6{
         margin-top: -25px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -8px;
+       
     }
-    .section6-testimonial-wrapper .carousel .carousel-cell{
+    .section6-testimonial-wrapper .carousel .carousel-cell {
         min-height: 410px;
         padding:10px 8px 10px 10px;
     }
@@ -1914,11 +1913,11 @@ display: inline;
     width: 305.9px;
     height: 380.2px;
     }
-    .section7-carousel-card-wrapper .card .card-img-top {
+    .section7-carousel-card-wrapper .card .card-img-top{
         height: 382.2px !important;
     }
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -9px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
     .section8 {
      margin-top: -4px;
@@ -1934,12 +1933,12 @@ display: inline;
         height: 497px;
 
     }
-    .section8-carousel-card-wrapper .card .card-img-top {
+    .section8-carousel-card-wrapper .card .card-img-top{
         width: 292.899px;
         height: 497px;
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -13px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     } 
     
 }
@@ -1978,7 +1977,7 @@ display: inline;
     
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left:-113px;
+       
     }
 
 
@@ -2001,13 +2000,13 @@ display: inline;
     .section4-carousel-card-wrapper .card .card-icons{
         height: 90px;
     }
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 473px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
 
 
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 464px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
 
 
@@ -2025,20 +2024,20 @@ display: inline;
     }
 
 
-    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 466px;
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{ 
-        margin-left: -21px;
+       
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -19px;
+       
     }
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -19px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+      
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -22px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
 }
 @media only screen and (min-width:375px){
@@ -2090,25 +2089,25 @@ display: inline;
         padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -126px;
+       
     }
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:459px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
-    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:  461px;
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
-    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:  -25px;
+    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+      
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -24px;
+        
     }
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -23px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -25px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
 }
 @media only screen and (min-width:412px){
@@ -2163,25 +2162,25 @@ display: inline;
         padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -135px;
+       
     }
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 440px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
-    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:443px;
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
-    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -43px;
+    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -44px;
+       
     }
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -43px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -45px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
 }
 @media only screen and (min-width:540px){
@@ -2231,25 +2230,25 @@ display: inline;
         padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -201px;
+     
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{ 
-        margin-left: 374px;
+       
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 376px;
+        
     }
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -109px;
+       
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -108px;
+        
     }
     .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -109px;
+        
     }
     .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -111px;
+        
     }
 }
 @media only screen and (min-width:576px){
@@ -2301,25 +2300,25 @@ display: inline;
         padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -209px;
+     
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{ 
-        margin-left:363px;
+        
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 365px;
+      
     }
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -121px;
+       
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -119px;
+       
     }
     .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -118px;
+        
     }
     .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -120px;
+        
     }
 
 }
@@ -2379,7 +2378,7 @@ display: inline;
         padding-top: 106px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -289px;
+       
     }
     .section4 .carousel .flickity-prev-next-button {
         top: 50%;
@@ -2389,7 +2388,7 @@ display: inline;
         min-height: 550px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 483px;
+       
     }
     .section4-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
@@ -2419,7 +2418,7 @@ display: inline;
         font-size: 24px;
     }    
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 482px;
+       
     }
     .section5-carousel-card-wrapper .carousel .carousel-cell {
         width: 418px;
@@ -2448,7 +2447,7 @@ display: inline;
         min-height: 550px;
     }
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -146px;
+        
     }
     .section5-1-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
@@ -2466,7 +2465,7 @@ display: inline;
     .section6 {
         padding-top: 20px;
     }
-    .section6-testimonial-wrapper .carousel .carousel-cell{
+    .section6-testimonial-wrapper .carousel .carousel-cell {
         min-height: 375px;
         width: 418px;
         padding: 10px 8px 10px 10px;
@@ -2477,7 +2476,7 @@ display: inline;
             max-width: 400px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -144px;
+        
     }
     .section5-1 {
         padding-bottom: 38px;
@@ -2488,34 +2487,34 @@ display: inline;
         min-height: 500px;
         padding: 10px 8px 10px 10px;
     }
-    .section7-carousel-card-wrapper .carousel .carousel-cell .card {
+    .section7-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
         height: 407.886px;
     }
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -144px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section8-carousel-card-wrapper .carousel .carousel-cell {
         width: 418px;
         height: 704px;
         padding: 10px 8px 10px 10px;
     }
-    .section8-carousel-card-wrapper .carousel .carousel-cell .card {
+    .section8-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
         height: 675.02px;
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -143px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
 }
 @media only screen and (min-width:768px){
       .nav-container {
           /* position: fixed; */
       }
-   .mt-6 {
+    .mt-6 {
         padding-top: 23px !important;
         margin-top: -2px;
-   }
+    }
       
       nav .desktop-nav li a {
         color: black;
@@ -2551,7 +2550,7 @@ display: inline;
         padding-top: 114px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -289px;
+        
     }
     .section4 .carousel .flickity-prev-next-button {
         top: 50%;
@@ -2561,7 +2560,7 @@ display: inline;
         min-height: 550px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 479px;
+       
     }
     .section4-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
@@ -2573,31 +2572,31 @@ display: inline;
         margin-left: -18px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -304px;
+        
     }
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:458px
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
-    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 459px;
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section5-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
         height: 492px;
     }
     
-    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:-167px;
+    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -167px;
+        
     }
      
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -168px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:  -167px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
 }
 @media only screen and (min-width:820px){
@@ -2609,9 +2608,18 @@ display: inline;
         /* AM NAV */
      
      }
-     .container{
+
+
+
+
+     /* .container{
          width: 779px;
      }
+
+ */
+
+
+
      .carousel .flickity-prev-next-button{
         display: none;
     }
@@ -2642,7 +2650,7 @@ display: inline;
         padding-top: 110px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -289px;
+       
     }
     .section4 .carousel .flickity-prev-next-button {
         top: 50%;
@@ -2652,7 +2660,7 @@ display: inline;
         min-height: 550px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 479px;
+        
     }
     .section4-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
@@ -2669,30 +2677,30 @@ display: inline;
         margin-left: -18px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -325px;
+       
     }
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:444px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
-    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 443px;
+    .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
-    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:-184px;
+    .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+      
     }
 
     .section5-1-carousel-card-wrapper .carousel .carousel-cell .card{
         height: 514.2px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -182px;
+       
     }
      
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -182px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -182px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
 }
 @media only screen and (min-width:976px){
@@ -2701,12 +2709,16 @@ display: inline;
     }
     
     
-    .container{
-    
+    /* .container{
     margin: 0 auto;
     padding: 0 8px;
     height: 100%;
-    } 
+    }  */
+
+
+
+
+
         margin-left: -335px;
     .heading1 {
         font-size: 48px;
@@ -2727,13 +2739,13 @@ display: inline;
         padding-top:  -5px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -383px;
+      
     }
-    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 379px;
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
-     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: 379px;
+     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+        
     }
     .section4-carousel-card-wrapper .carousel .card .card-text {
         font-size: 18px;
@@ -2746,7 +2758,7 @@ display: inline;
         font-size: 20px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 383px;
+       
     }
     .section5-carousel-card-wrapper .card .card-img-overlay {
         padding: 27px;
@@ -2762,7 +2774,7 @@ display: inline;
         font-size: 20px;
     }
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left:-244px;
+        
     }
     .section5-1-carousel-card-wrapper .card .card-img-overlay {
         padding: 27px;
@@ -2778,13 +2790,13 @@ display: inline;
         font-size: 20px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -240px;
+       
     }
-    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -240px;
+    .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
-    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left:-238px;
+    .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
 }
 @media only screen and (min-width:1024px) {
@@ -2794,10 +2806,17 @@ display: inline;
         -webkit-transition: all 400ms ease;
         transition: all 400ms ease;
     }
-    .container{
+
+    /* .container{
         width:922px;
+        overflow: visible;
     }
-    
+     */
+
+
+
+
+
     .carousel .flickity-prev-next-button{
         display: block;
     }
@@ -2809,17 +2828,17 @@ display: inline;
         margin-top: 0px;
         padding-top: 93px;
     }
-    .section3-wrapper .carousel .flickity-viewport .flickity-slider {
-        margin-left: -408px;
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+       
     }
     .section4 {
-        padding-top:66px;
+        padding-top:100px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 355px;
+        
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: 351px;
+       
     }
     .section5-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
@@ -2832,7 +2851,7 @@ display: inline;
         font-size: 12px;
     }
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -278px;
+       
     }
     .section5-1{
         margin-top: -2px;
@@ -2846,10 +2865,10 @@ display: inline;
         margin-top: -126px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -273px
+        
     }
     .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left:  -272px;
+       
     }
     .section7-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
@@ -2861,7 +2880,7 @@ display: inline;
     
     }
     .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left:-270px;
+       
     }
     .section8-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
@@ -2996,7 +3015,7 @@ video::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 }
 .style15 {font-size: xx-small;
 }
-.style16 {font-size: smaller;
+.style16 {font-size: 14px;
     padding: 30px;
 }
 /* AM: command: define a class for all these below */
@@ -3065,24 +3084,38 @@ margin-right: 74px;
 }
 .style36 {margin-top: -104px;
 }
-
-.py-2-footer{
+/* .py-2-footer{
 padding-top: 10px !important;
 padding-bottom: 21px !important;
-background-color: white;
-}
+} */
 
 
 /* 320, 343 */
+
+
 @media (min-width: 576px) {
+
+
 .style38 {margin-top: -180px;
 }
 
+
 .style36 {margin-top: -182px;
 }
-
 .style13 {clear: none;
 }
+
+
+
+
+}
+
+
+/* HOVER COLOR CHANGE  */
+
+.bottom-phone .btn-success:hover{
+    background-color: red;
+    color: black;
 }
 
 .style2 {margin-bottom: 14px;
@@ -3134,12 +3167,15 @@ background-color: white;
   height: 100%;
   background-size: 2.7px 2.7px;
 } 
+.style5 {background-color: #f5f5f7;
+}
+
+
   /* background-color: rgba(247, 239, 239, 0); */
   /* background-image: radial-gradient(black 50%, transparent 50%);
 
 
-.style5 {background-color: #f5f5f7;
-}
+
 
 .style6 {background-color: #f5f5f7;
 }
@@ -3171,29 +3207,25 @@ background-color: blue;
   background-color: #ffffff;
   position: fixed;
   bottom: 0;
-  right: 0;
   width: 100%;
   border: 10px;
   border-style: black;
 }
 
 .navbar a {
-  float: left;
-  /* display: block;
+  /* float: left;
+  display: block;
   color: #030303;
-  text-align: center;
-  padding: 14px 16px; */
+  text-align: center; */
+  /* padding: 14px 16px; */
   text-decoration: none;
   font-size: 14px;
 }
 
-/* HOVER COLOR CHANGE  */
-
-.bottom-phone .btn-success:hover{
-    background-color: #fbff00;
-    color: black;
+.navbar a:hover {
+  background: #f1f1f1;
+  color: rgb(129, 21, 21);
 }
-
 .d-flex .flex-column p{
     font-size: 12px;
 }
@@ -3212,16 +3244,31 @@ background-color: blue;
 .btn-success {
    width: 140px;
    /* background-color: #65d9d8 !important;
-   border-color: #FFEB3B !important;
-    */
+   border-color: #FFEB3B !important; */
+   
 }
 
-.wappler-temp {
+/* .wappler-temp {
 
-}
+} */
 
 .:hover {background-color: #ffc107;color: #ffc107;
 }
+
+
+
+
+
+
+.container10{
+  overflow: visible;
+ /* overflow: hidden; */
+ /* position: center; */
+ /* max-width: 768px; */
+}
+
+
+
 
 
 
