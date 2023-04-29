@@ -1352,12 +1352,12 @@ display: inline;
 .flickity-button:hover {
     background: #ffe80073 !important;
 }
-/* .carousel .flickity-prev-next-button{
-    display: none;
+.carousel .flickity-prev-next-button{
+    display: none !important
 }
 .carousel .flickity-button .flickity-prev-next-button:hover{
     display: block !important;
-} */
+} 
 @media only screen and (min-width:270px){
     
     
@@ -3203,25 +3203,30 @@ background-color: blue;
 } */ 
 /* BOTTOM NAV BAR END */
 
+.text-animation{
+    -webkit-transition: 0.5s;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+.text-animation:hover{
+    margin-left: 10px;
+    color: rgb(136, 212, 14);
+}
 
 .main {
   padding: 16px;
   margin-bottom: 30px;
+ 
 }
 
 .btn-success {
-   width: 140px;
+   width: 142px;
    /* background-color: #65d9d8 !important;
    border-color: #FFEB3B !important;
     */
 }
 
-.wappler-temp {
 
-}
-
-.:hover {background-color: #ffc107;color: #ffc107;
-}
 
 
 
