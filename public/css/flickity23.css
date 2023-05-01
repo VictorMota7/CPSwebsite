@@ -6,23 +6,33 @@ https://flickity.metafizzy.co
   position: relative;
 }
 
-.flickity-enabled:focus { outline: none; 
-}
+.flickity-enabled:focus { outline: none; }
 
-/* .flickity-viewport {
+.flickity-viewport {
   overflow-x: hidden;
   position: relative;
   height: 100%;
   width: 100%;
-} */
+}
                                                  /* ORIGINAL */
 
-.flickity-viewport {
- overflow: hidden;
+/* .flickity-viewport {
+  overflow: hidden;
   position: relative;
   height: 100%;
   width: 100%;
-}
+} */
+
+
+
+
+/* .flickity-viewport {
+  overflow-x: visible;
+  position: relative;
+  height: 100%;
+  width: 100%;
+} */
+
 
 
 

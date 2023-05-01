@@ -1,6 +1,5 @@
 <!-- Wappler include head-page="layouts/main" fontawesome_5="cdn" bootstrap5="local" is="dmx-app" id="index4" appConnect="local" components="{dmxBootstrap5Navigation:{}}" -->
 
-
 <meta name="ac:route" content="/">
 <section>
     <div class="bg-danger text-light container-fluid">
@@ -187,7 +186,7 @@
     <div class="section3-wrapper">
 
         <div class="carousel story-carousel" data-flickity='{ "autoPlay": 0 }'>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <img src="/assets/images/CPS-for small-carousel-icons400px.png">
                 <div class="carousel-title">Creativity</div>
             </div>
@@ -234,7 +233,6 @@
 <!-- Section3 Product Carousel Slider End -->
 <!-- Section4 Latest Video Carousel Slider Start -->
 <div class="section4 ">
-
     <div class="container ">
         <div class="row mx-0 style13">
             <div class="col-12 px-0 mb-2 style12 mb-md-auto pt-md-0 pb-md-0 col-lg-5">
@@ -245,9 +243,10 @@
     </div>
     <div class="section4-carousel-card-wrapper">
 
-        <div class="carousel story-carousel style26" data-flickity='{ "freeScroll": true,  "groupCells":4 }' style="scroll-behavior: smooth;">
+        <div class="carousel story-carousel style26" data-flickity='{ "freeScroll": true, "groupCells":4 }' style="scroll-behavior: smooth;">
             <div class="carousel-cell style13">
-                <div class="card img-fluid  card-animation" dmx-on:dblclick="browserMain.goto('https://xerographics.designnbuy.biz/en/lock-bottom-folding-carton.html')">
+
+                <div class="card img-fluid " dmx-on:click="https://xerographics.designnbuy.biz/en/customer/account/login/referer/aHR0cHM6Ly94ZXJvZ3JhcGhpY3MuZGVzaWdubmJ1eS5iaXovZW4vY3VzdG9tZXIvYWNjb3VudC9pbmRleC8%2C/">
 
                     <video id="video-player1" autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/Mall-banner.mp4" alt="/assets/images/CPS-for%20small-carousel-icons400px.png">
                         <source src="/assets/videos/IMG_3565.MOV" type="video/mp4">
@@ -262,7 +261,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
 
                 <div class="card img-fluid" dmx-on:click="browserMain.goto('https://xerographics.designnbuy.biz/en/lock-bottom-folding-carton.html')">
                     <video id="video-player2" autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/Box-complimentsv4.mp4">
@@ -276,7 +275,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <video id="video-player2" autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/Cut-holidaycard.mp4">
                         <source src="https://assets.mixkit.co/videos/preview/mixkit-tree-branches-in-the-breeze-1188-large.mp4" type="video/mp4">
@@ -289,7 +288,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <video id="video-player2" autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/cutting-foam-board.mp4">
                         <source src="https://assets.mixkit.co/videos/preview/mixkit-tree-branches-in-the-breeze-1188-large.mp4" type="video/mp4">
@@ -302,7 +301,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <div class="card img-fluid">
                         <video id="video-player2" autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/costas-containers-custom.mp4">
@@ -317,7 +316,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <div class="card img-fluid">
                         <video id="video-player2" autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/Mall-banner.mp4">
@@ -335,7 +334,6 @@
         </div>
 
     </div>
-
 </div>
 <!-- Section4 Latest Video Carousel Slider End -->
 <!-- Section5 Card Carousel Slider Start -->
@@ -354,21 +352,21 @@
     <div class="section5-carousel-card-wrapper">
         <div class="carousel story-carousel" data-flickity='{ "freeScroll": true, "groupCells":4  }'>
 
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
 
-                <div class="img-fluid card-horizantal ">
+                <div class="img-fluid card-horizantal">
 
-                    <div class="horizantal-image text-center top-horizantal" dmx-on:dblclick="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/login/referer/aHR0cHM6Ly94ZXJvZ3JhcGhpY3MuZGVzaWdubmJ1eS5iaXovZW4vY3VzdG9tZXIvYWNjb3VudC9pbmRleC8%2C/')">
+                    <div class="horizantal-image text-center top-horizantal" dmx-on:click="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/login/referer/aHR0cHM6Ly94ZXJvZ3JhcGhpY3MuZGVzaWdubmJ1eS5iaXovZW4vY3VzdG9tZXIvYWNjb3VudC9pbmRleC8%2C/')">
                         <img class="horizontal-top-image-sizer" src="/assets/images/CPS-box-packaging%20211x%20261px.png" alt="">
                     </div>
-                    <div class="horizantal-image text-center bottom-horizantal py-3" dmx-on:dblclick="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/login/referer/aHR0cHM6Ly94ZXJvZ3JhcGhpY3MuZGVzaWdubmJ1eS5iaXovZW4vY3VzdG9tZXIvYWNjb3VudC9pbmRleC8%2C/\')">
+                    <div class="horizantal-image text-center bottom-horizantal py-3">
                         <img class="" src="/assets/images/Booklets%20Reports%20Covers%20&amp;%20Binding/CPS-booklets 194 x100px.jpg" alt="">
 
                         </margin-top>
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <div class="card-img-overlay ">
                         <p class="card-content-desc text-danger">From 5$, 8$, 19$</p>
@@ -377,7 +375,7 @@
 
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <div class="card-img-overlay style20">
 
@@ -387,7 +385,7 @@
 
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <div class="card-img-overlay">
 
@@ -397,7 +395,7 @@
 
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <img class="card-img-top" src="/assets/images/CPS-box-packaging%20211x%20261px.png" alt="Card image" style="width:100%">
                     <div class="card-img-overlay">
@@ -408,7 +406,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <img class="card-img-top " src="/assets/images/CPS-labels-211x261.png" alt="Card image" style="width:100%">
                     <div class="card-img-overlay">
@@ -418,7 +416,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid">
                     <img class="card-img-top " src="/assets/images/CPS-books211x261.png" alt="Card image" style="width:100%">
                     <div class="card-img-overlay">
@@ -450,7 +448,7 @@
     </div>
     <div class="section5-1-carousel-card-wrapper">
         <div class="carousel story-carousel style26" data-flickity='{ "freeScroll": true  }' style="scroll-behavior: smooth;">
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid px-3 bg-dark">
                     <div class="row mx-0 pt-3 mb-3">
 
@@ -507,7 +505,7 @@
                     </div> -->
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid px-3 bg-light">
                     <div class="row mx-0 pt-3 mb-3">
                         <div class="col-4 pe-2 px-0">
@@ -559,7 +557,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid px-3 bg-warning">
                     <div class="row mx-0 pt-3 mb-3">
                         <div class="col-4 pe-2 px-0">
@@ -611,7 +609,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card img-fluid px-3 bg-danger">
                     <div class="row mx-0 pt-3 mb-3">
                         <div class="col-4 pe-2 px-0">
@@ -686,7 +684,7 @@
     </div>
     <div class="section6-testimonial-wrapper">
         <div class="carousel story-carousel" data-flickity='{ "freeScroll": true }'>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card col-12 col-sm-3 col-md-3">
                     <div class="box-area style6" id="testimonial4">
                         <div class="img-area">
@@ -705,7 +703,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card col-12 col-sm-3 col-md-3" dmx-animate-enter="slideInRight">
                     <div class="box-area diamond1" id="testimonial-2">
                         <i class="fa fa-quote-left" aria-hidden="true" style="color: #1d1d1f; top: 6px; position: absolute;"></i>
@@ -719,7 +717,7 @@
                 </div>
 
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card col-12 col-sm-3 col-md-3">
                     <div class="box-area">
                         <div class="img-area">
@@ -732,7 +730,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card col-12 col-sm-3 col-md-3">
                     <div class="box-area diamond2" id="testimonial-4">
                         <i class="fa fa-quote-left" aria-hidden="true" style="color:#66dad6;top:6px;position: absolute;"></i>
@@ -771,7 +769,7 @@
     </div>
     <div class="section7-carousel-card-wrapper">
         <div class="carousel story-carousel" data-flickity='{ "freeScroll": true }'>
-            <div class="carousel-cell card-animation style12">
+            <div class="carousel-cell style12">
                 <div class="card ps-lg-4">
                     <div class="row mx-0">
                         <div class="col-5 col-xs-5 align-self-center">
@@ -804,7 +802,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card ps-lg-4">
                     <div class="row mx-0">
                         <div class="col-5 col-xs-5 align-self-center">
@@ -830,7 +828,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card ps-lg-4">
                     <div class="row mx-0">
                         <div class="col-5 col-xs-5 align-self-center">
@@ -880,7 +878,7 @@
     </div>
     <div class="section8-carousel-card-wrapper">
         <div class="carousel story-carousel" data-flickity='{ "freeScroll": true  }'>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card ps-lg-4">
                     <div class="row mx-0">
                         <div class="col-5 col-xs-5 align-self-center">
@@ -913,7 +911,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card ps-lg-4">
                     <div class="row mx-0">
                         <div class="col-5 col-xs-5 align-self-center">
@@ -938,7 +936,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-cell card-animation">
+            <div class="carousel-cell">
                 <div class="card ps-lg-4">
                     <div class="row mx-0">
                         <div class="col-5 col-xs-5 align-self-center">
@@ -968,27 +966,27 @@
 <!-- Section8 Individual Plan Carousel End -->
 <div class="navbar pb-0 border  border-top-1 ">
     <div class="d-flex justify-content-center w-100">
-        <div class="flex-column justify-content-center px-3 button-animation">
+        <div class="flex-column justify-content-center px-3">
             <img src="/assets/images/Design-CPS-icon.svg" width="35px" dmx-on:click="https://xerographics.designnbuy.biz/en/t-shirt.html">
             <p class="mb-0">Design</p>
         </div>
-        <div class="flex-column justify-content-center px-2 button-animation" dmx-on:click="https://www.motafilms.com/" dmx-on:touchstart="https://www.motafilms.com/">
+        <div class="flex-column justify-content-center px-2 " dmx-on:click="https://www.motafilms.com/" dmx-on:touchstart="https://www.motafilms.com/">
             <img src="/assets/images/Share-CPS-icon.svg" width="35px">
             <p class="mb-0">Share</p>
         </div>
         <div class="text-center" dmx-on:click="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/')">
-            <div class="flex-column px-4 button-animation">
+            <div class="flex-column px-4">
                 <img src="/assets/images/Account-icon.svg" width="35px">
                 <p class="mb-0">Account</p>
             </div>
         </div>
-        <div class="text-center button-animation">
+        <div class="text-center">
             <div class="flex-column d-flex justify-content-center px-2">
                 <img src="/assets/images/email CPS-icon.svg" width="35px" title="">
                 <p class="mb-0">Email</p>
             </div>
         </div>
-        <div class="flex-column justify-content-center px-3 button-animation">
+        <div class="flex-column justify-content-center px-3">
             <img src="/assets/images/orders-icon2.svg" width="35px" title="">
             <p class="mb-0">Orders</p>
         </div>
@@ -998,7 +996,7 @@
             <button type="button" class="btn btn-success float-end">Get a quote</button>
         </div class="opacity-75">
         <div class="col-6 col-xs-6 col-md-6 col-lg-6 px-1 ">
-            <a href="tel:+18008239133" class="bottom-phone" style="text-decoration: none;">
+            <a href="tel:+18009823533" class="bottom-phone" style="text-decoration: none;">
                 <button type="button" class="btn btn-success">800-823-9133</button>
             </a>
         </div>
@@ -1015,8 +1013,9 @@
             <div class="footer-logo w-100 row mx-0 style12 shadow-none">
                 <div class="px-0 style35 col-12 mx-0">
                     <a href="tel:+18009823533" style="text-decoration: none;">
-                        <p class="col-5 mx-0 py-3 my-0 w-auto ps-0  text-start fw-bold text-nowrap button-animation "><img class="order-last style31" src="/assets/images/Abiezer12.png">
-                            <span class="shop-header-blue">8</span><span class="shop-header-blue">0</span><span class="shop-header-blue">0</span>-923-9133
+                        <p class="col-5 mx-0 py-3 my-0 w-auto ps-0  text-start fw-bold text-nowrap">
+                            <img class="order-last style31" src="/assets/images/Abiezer12.png">
+                            <span class="shop-header-blue">8</span><span class="shop-header-blue">0</span><span class="shop-header-blue">0</span>-982-3533
                         </p>
                     </a>
                 </div>
@@ -1135,3 +1134,6 @@
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <!-- Custom JS -->
+</body>
+
+</html>
