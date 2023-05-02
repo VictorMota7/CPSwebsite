@@ -26,7 +26,7 @@ html{
 /* Desktop Nav */
 
 .nav-container {background: rgba(0, 0, 0, 9.5);
-    height: 50px;
+    height: 60px;
     z-index: 300;
     left: 0;
     position: absolute;
@@ -73,15 +73,15 @@ nav .desktop-nav li a {
 nav .desktop-nav li a:hover {
     opacity: 1;
 }
-
+                                                                    /* QQQQQQ */
 .link-logo {
-    background: url('../assets/favicon.ico/favicon-16x16.png');
+    background: url('../assets/CPS-logo-center-preserve.svg');
     display: block;
     background-position: center;
     height: 48px;
-    width: 18px;
+    width: 48px;
     background-repeat: no-repeat;
-    background-image: url("../favicon.ico/favicon-16x16.png");
+    background-image: url("../CPS-logo-center-preserve.svg");
 }
 
 .link-search {
@@ -505,7 +505,7 @@ margin: 0px;
                 justify-content: space-between;
         list-style: none;
 
-        /* AMNAVbackground-color: #fff; */
+        /* NAVbackground-color: #fff; */
     }
     nav .menu-icon-container {
         width: 20px;
@@ -779,16 +779,20 @@ ol, ul {
         font-weight: bold;
         text-align: left;
         line-height: 52px;
+
+        
+        
+      
     }
     .heading3{ 
         font-size: 32px;
         line-height: 1.1;
         font-weight: 600;
-        letter-spacing:.5px;
         font-family: Arial, Helvetica, sans-serif;
         display: inline;
         margin-top: -18px;
         padding-bottom: 0px;
+        
     }
 .shop-header-red {
     color: #ee1458;
@@ -1404,7 +1408,7 @@ display: inline;
     }
     .section4{
         margin-top: 0px;
-        padding-top: 102px;
+        padding-top: 95px;
         
     }
     .section4 select{
@@ -1469,7 +1473,7 @@ display: inline;
      padding-bottom: 51px;
     }
     .heading3 {
-        font-size: 22px;
+        font-size: 24px;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 414px;
@@ -1540,7 +1544,7 @@ display: inline;
     }
     .section5-1-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 260px;
-        height: 325px;
+        height: 334px;
     }
     .section5-1-carousel-card-wrapper .carousel .card .card-title {
         font-size: 14px;
@@ -2416,7 +2420,7 @@ display: inline;
        margin-top: -263px;
     }
     .heading3 {
-        font-size: 24px;
+        font-size: 30px;
     }    
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 482px;
@@ -2905,7 +2909,7 @@ h6 a{
         background-clip: padding-box;
     }
 video{
-        background: white;
+        background: rgb(8, 0, 0);
 }
 /* This used to work for the parent element of button divs */
 /* But it does not work with newer browsers, the below doesn't hide the play button parent div */
@@ -3072,18 +3076,30 @@ padding-bottom: 21px !important;
 background-color: white;
 }
 
-
+/* Q */
 /* 320, 343 */
 @media (min-width: 576px) {
 .style38 {margin-top: -180px;
 }
 
+.style32 {width: 148px;
+}
+
+.style33 {width: 70px;
+}
+
+.style28 {width: 128px;
+}
+}
 .style36 {margin-top: -182px;
 }
 
 .style13 {clear: none;
 }
+
+.style28 {width: 45px;
 }
+
 
 .style2 {margin-bottom: 14px;
 }
@@ -3091,6 +3107,12 @@ background-color: white;
 
 @media (min-width: 768px) {
 
+.style28 {width: 129px;
+}
+
+.style29 {width: 71px;
+}
+}
 
 .style39 {margin-top: 12px;
 }
@@ -3106,7 +3128,7 @@ background-color: white;
 
 .style4 {margin-bottom: 31px;padding-bottom: 17px;width: 345px;height: 501px;
 }
-}
+
 
 
 @media (min-width: 992px) {
@@ -3218,16 +3240,13 @@ background-color: blue;
 
 .card-animation{
     -webkit-transition: 0.5s;
-    -webkit-transition: 0.8s;
-    -webkit-transition: 0.7s;
-    -webkit-transition: 0.6s;
     transition: 0.5s;
     
     
 }
 .card-animation:hover{
-    margin-left:5px;
-    opacity: 88%;
+    margin-left:6px;
+    /* + */
  
 }
 
@@ -3242,8 +3261,8 @@ background-color: blue;
     
 }
 .button-animation:hover{
-    margin-left:5px;
-    opacity: 50%;
+    margin-left:6px;
+    opacity: 40%;
  color: rgb(4, 0, 255);
 }
 
@@ -3265,7 +3284,46 @@ background-color: blue;
     */
 }
 
+.style5 {margin-top: -3px;
+}
 
+.style6 {width: 50px;
+}
 
+.style12 {width: 17px;
+}
+
+.style14 {width: 60px;
+}
+
+.container {
+
+}
+
+.style28{width: 122px;
+    
+}
+
+.wappler-temp {
+
+}
+
+.style40 {height: 6px;
+}
+
+.style41 {display: -webkit-box;display: -ms-flexbox;display: flex;
+}
+
+.style42 {display: -webkit-box;display: -ms-flexbox;display: flex;
+}
+
+.style43 {display: -webkit-box;display: -ms-flexbox;display: flex;
+}
+
+.style44 {display: -webkit-box;display: -ms-flexbox;display: flex;
+}
+
+.style45 {display: -webkit-box;display: -ms-flexbox;display: flex;
+}
 
 

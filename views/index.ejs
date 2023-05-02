@@ -1,4 +1,5 @@
-<!-- Wappler include head-page="layouts/main" fontawesome_5="cdn" bootstrap5="local" is="dmx-app" id="index4" appConnect="local" components="{dmxBootstrap5Navigation:{}}" -->
+<!-- Wappler include head-page="layouts/main" fontawesome_5="cdn" bootstrap5="local" is="dmx-app" id="index4" appConnect="local" components="{dmxBootstrap5Navigation:{},dmxAnimateCSS:{}}" -->
+
 
 
 <meta name="ac:route" content="/">
@@ -13,10 +14,16 @@
 <!-- Navbar Start -->
 <div class="nav-container">
     <nav class="nav-behavior" id="navid">
-        <ul class="mobile-nav">
-
+        <ul class="mobile-nav ">
+            <div class="container">
+                <div class="row">
+                    <div class="md-5 pt-2 style46">
+                        <img src="/assets/images/cps-logo-with-stars.svg" class="style28">
+                    </div>
+                </div>
+            </div>
             <li>
-                <div class="menu-icon-container style13">
+                <div class="menu-icon-container style13 px-5">
                     <div class="menu-icon">
                         <span class="line-1"></span>
                         <span class="line-2"></span>
@@ -29,7 +36,7 @@
             </li>
 
             <li>
-                <a href="" class="link-bag"></a>
+                <a href="" class="link-bag d-none"></a>
             </li>
         </ul>
 
@@ -146,9 +153,10 @@
     <div class="container">
         <div class="row mx-0 bg-light row-cols-12">
             <div class="col-xs-12 px-0 col-lg-9 col offset-0">
+
                 <h1 class="heading1 text-black-100 text-black-100"><span class="shop-header-black">C</span><span class="shop-header-red">P</span><span class="shop-header-blue">S</span><span class="shop-header-black">. <font color="#000000"> 24/7
                             Quality Printing for
-                            Creatives. </font></span>
+                            Creators and Innovators. </font></span>
 
                     <!-- <span class="shop-header-blue"><br>8</span><span class="shop-header-blue">0</span><span class="shop-header-blue">0</span><span class="shop-header-red">-982-3533<p></p></span></h1> -->
 
@@ -186,11 +194,8 @@
 <div class="section3" style="background-color:#f7f8f8  !important; /* z-index: 1 */">
     <div class="section3-wrapper">
 
-        <div class="carousel story-carousel" data-flickity='{ "autoPlay": 0 }'>
-            <div class="carousel-cell card-animation">
-                <img src="/assets/images/CPS-for small-carousel-icons400px.png">
-                <div class="carousel-title">Creativity</div>
-            </div>
+        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true, "freeScrollFriction": 0.02 , "autoPlay": 1900 }' style="scroll-behavior: smooth;">
+
             <div class="carousel-cell" dmx-on:click="browserMain.goto('https://xerographics.designnbuy.biz/en/lock-bottom-folding-carton.html')">
                 <img src="/assets/images/CPS-box-packaging.png">
                 <div class="carousel-title style17">
@@ -212,6 +217,7 @@
                 <img src="/assets/images/cps-promotional-garments.png">
                 <div class="carousel-title">Wearables</div>
             </div>
+
             <div class="carousel-cell">
                 <img src="/assets/images/rolls-of-labels.png">
                 <div class="carousel-title">Labels</div>
@@ -228,6 +234,10 @@
                 <img src="/assets/images/retractable-standing-posters.png">
                 <div class="carousel-title">retractable</div>
             </div>
+            <div class="carousel-cell card-animation">
+                <img src="/assets/images/CPS-for small-carousel-icons400px.png ">
+                <div class="carousel-title ">Creativity</div>
+            </div>
         </div>
     </div>
 </div>
@@ -237,26 +247,26 @@
 
     <div class="container ">
         <div class="row mx-0 style13">
-            <div class="col-12 px-0 mb-2 style12 mb-md-auto pt-md-0 pb-md-0 col-lg-5">
-                <h3 class="heading3" id="Latest"><span class="shop-header">CPS latest: brilliant ideas </span>
+            <div class="col-12 px-0 mb-0 mb-md-auto pt-md-0 pb-md-0 col-lg-5">
+                <h3 class="heading3 " id="Latest"><span class="shop-header">CPS latest: brilliant ideas </span>
                 </h3>
             </div>
         </div>
     </div>
     <div class="section4-carousel-card-wrapper">
 
-        <div class="carousel story-carousel style26" data-flickity='{ "freeScroll": true,  "groupCells":4 }' style="scroll-behavior: smooth;">
+        <div class="carousel story-carousel style26" data-flickity='{ "freeScroll": true, "freeScrollFriction": 0.02 ,"groupCells":4 }' style="scroll-behavior: smooth;">
             <div class="carousel-cell style13">
+
                 <div class="card img-fluid  card-animation" dmx-on:dblclick="browserMain.goto('https://xerographics.designnbuy.biz/en/lock-bottom-folding-carton.html')">
 
                     <video id="video-player1" autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/Mall-banner.mp4" alt="/assets/images/CPS-for%20small-carousel-icons400px.png">
                         <source src="/assets/videos/IMG_3565.MOV" type="video/mp4">
-
                     </video>
 
                     <div class="card-img-overlay dotm-overlay">
                         <img class="style19" src="/assets/images/CPS-for small-carousel-icons50px.png">
-                        <p class="card-text text-light d-print-none fw-normal visually-hidden">TURN GREAT IDEAS INTO REALITY</p>
+                        <p class="card-text text-light fw-normal visually-hidden">TURN GREAT IDEAS INTO REALITY</p>
                         <h4 class="card-title text-light d-none">Creative and Community Woven together</h4>
                         <!-- <p class="card-content-desc text-light">49$</p> -->
                     </div>
@@ -352,7 +362,8 @@
         </div>
     </div>
     <div class="section5-carousel-card-wrapper">
-        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true, "groupCells":4  }'>
+
+        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true, "freeScrollFriction": 0.03 ,"groupCells":4 }'>
 
             <div class="carousel-cell card-animation">
 
@@ -685,10 +696,10 @@
         </div>
     </div>
     <div class="section6-testimonial-wrapper">
-        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true }'>
+        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true, "freeScrollFriction": 0.03 }'>
             <div class="carousel-cell card-animation">
-                <div class="card col-12 col-sm-3 col-md-3">
-                    <div class="box-area style6" id="testimonial4">
+                <div class="card col-12 col-sm-3 col-md-3" dmx-animate-enter="slideInLeft">
+                    <div class="box-area" id="testimonial4">
                         <div class="img-area">
                             <img src="/assets/images/Abiezerv4.jpg" alt="">
                         </div>
@@ -706,7 +717,7 @@
                 </div>
             </div>
             <div class="carousel-cell card-animation">
-                <div class="card col-12 col-sm-3 col-md-3" dmx-animate-enter="slideInRight">
+                <div class="card col-12 col-sm-3 col-md-3" dmx-animate-enter="slideInLeft">
                     <div class="box-area diamond1" id="testimonial-2">
                         <i class="fa fa-quote-left" aria-hidden="true" style="color: #1d1d1f; top: 6px; position: absolute;"></i>
                         <div class="img-area">
@@ -770,7 +781,7 @@
         </div>
     </div>
     <div class="section7-carousel-card-wrapper">
-        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true }'>
+        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true, "freeScrollFriction": 0.03 }'>
             <div class="carousel-cell card-animation style12">
                 <div class="card ps-lg-4">
                     <div class="row mx-0">
@@ -821,7 +832,7 @@
                             <ul>
                                 <li>4hrs design help</li>
                                 <li>Print consultation </li>
-                                <li>Print up to 300 booklets*</li>
+                                <li>Print up to 30 booklets*</li>
                                 <li>1000 direct-to-mail </li>
 
 
@@ -846,8 +857,8 @@
                         <div class="check-points">
                             <ul>
                                 <li> 4hrs Consultation</li>
-                                <li>Print up to 500 booklets*</li>
-                                <li>Print up to 300 booklets*</li>
+                                <li>Print up to 50 booklets*</li>
+                                <li>Print up to 50 booklets*</li>
                                 <li>Print up to 50, 10 page catalogs*</li>
                                 <li>5000 direct-to-mail </li>
 
@@ -879,7 +890,7 @@
         </div>
     </div>
     <div class="section8-carousel-card-wrapper">
-        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true  }'>
+        <div class="carousel story-carousel" data-flickity='{ "freeScroll": true, "freeScrollFriction": 0.03 }'>
             <div class="carousel-cell card-animation">
                 <div class="card ps-lg-4">
                     <div class="row mx-0">
@@ -898,8 +909,8 @@
                             <ul>
                                 <li>Print 30,000 leter size pages </li>
                                 <li> 5hs Consultation</li>
-                                <li>Print up to 500 booklets*</li>
-                                <li>Print up to 300 booklets*</li>
+                                <li>Print up to 100 booklets*</li>
+                                <li>Print up to 100 booklets*</li>
                                 <li>Print up to 50, 10-page catalogs*</li>
                                 <li>5000 direct-to-mail </li>
                             </ul>
@@ -928,11 +939,12 @@
                         <h1><span class="USD">$4,999</span><span class="month">/<u>month*</u></span></h1>
                         <div class="check-points">
                             <ul>
-                                <li> 2hs Consultation</li>
-                                <li>Print up to 500 booklets*</li>
-                                <li>Print up to 300 booklets*</li>
-                                <li>Print up to 50, 10-page catalogs*</li>
-                                <li>5000 direct-to-mail </li>
+                                <li>Print 50,000 leter size pages </li>
+                                <li> 10hrs Consultation</li>
+                                <li>Print up to 200 booklets*</li>
+                                <li>Print up to 200 booklets*</li>
+                                <li>Print up to 100, 10-page catalogs*</li>
+                                <li>10000 direct-to-mail </li>
                             </ul>
                         </div>
                     </div>
@@ -967,6 +979,7 @@
 </div>
 <!-- Section8 Individual Plan Carousel End -->
 <div class="navbar pb-0 border  border-top-1 ">
+
     <div class="d-flex justify-content-center w-100">
         <div class="flex-column justify-content-center px-3 button-animation">
             <img src="/assets/images/Design-CPS-icon.svg" width="35px" dmx-on:click="https://xerographics.designnbuy.biz/en/t-shirt.html">
@@ -1049,9 +1062,9 @@
         <div class="row mx-0 mb-5 fw-lighter style16 text-white">
             <div class="col-xs-4 col-md-2 px-0 mb-3 offset-sm-1 col-xxl-2 offset-1 col-5 col-sm-2">
                 <h5>Home</h5>
-                <p class="fw-normal text-animation">Categories</p>
-                <p class="mb-1 fw-normal text-animation">Custom lab</p>
-                <p class="mb-1 text-animation fw-lighter">About us</p>
+                <p class="mb-1 text-animation">Categories</p>
+                <p class="mb-1 text-animation">Custom lab</p>
+                <p class="mb-1 text-animation">About us</p>
                 <p class="mb-1 text-animation">Support</p>
                 <p class="mb-1 text-animation">FAQs</p>
             </div>
