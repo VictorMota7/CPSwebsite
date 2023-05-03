@@ -2,7 +2,6 @@
 
 
 
-
 <meta name="ac:route" content="/">
 <section>
     <div class="bg-danger text-light container-fluid">
@@ -259,20 +258,18 @@
         <div class="carousel story-carousel style26" data-flickity='{ "freeScroll": true, "freeScrollFriction": 0.02 ,"groupCells":4 }' style="scroll-behavior: smooth;">
             <div class="carousel-cell style13">
 
-                <div class="card img-fluid  card-animation">
+                <div class="card img-fluid  card-animation" dmx-on:dblclick="browserMain.goto('https://xerographics.designnbuy.biz/en/lock-bottom-folding-carton.html')">
 
                     <video id="video-player1" autoplay="autoplay" muted="" loop="" controls="false" playsinline="true" preload="metadata" class="card-img-top col video-player" src="/assets/videos/Mall-banner.mp4" alt="/assets/images/CPS-for%20small-carousel-icons400px.png">
                         <source src="/assets/videos/IMG_3565.MOV" type="video/mp4">
                     </video>
-                    <!-- -----------SINGLE CLIK CODE ARIF -->
-                    <a href="https://xerographics.designnbuy.biz/en/lock-bottom-folding-carton.html">
-                        <div class="card-img-overlay dotm-overlay">
-                            <img class="style19" src="/assets/images/CPS-for small-carousel-icons50px.png">
-                            <p class="card-text text-light fw-normal visually-hidden">TURN GREAT IDEAS INTO REALITY</p>
-                            <h4 class="card-title text-light d-none">Creative and Community Woven together</h4>
-                            <!-- <p class="card-content-desc text-light">49$</p> -->
-                        </div>
-                    </a>
+
+                    <div class="card-img-overlay dotm-overlay">
+                        <img class="style19" src="/assets/images/CPS-for small-carousel-icons50px.png">
+                        <p class="card-text text-light fw-normal visually-hidden">TURN GREAT IDEAS INTO REALITY</p>
+                        <h4 class="card-title text-light d-none">Creative and Community Woven together</h4>
+                        <!-- <p class="card-content-desc text-light">49$</p> -->
+                    </div>
                 </div>
             </div>
             <div class="carousel-cell card-animation">
@@ -375,8 +372,8 @@
                     <div class="horizantal-image text-center top-horizantal" dmx-on:dblclick="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/login/referer/aHR0cHM6Ly94ZXJvZ3JhcGhpY3MuZGVzaWdubmJ1eS5iaXovZW4vY3VzdG9tZXIvYWNjb3VudC9pbmRleC8%2C/')">
                         <img class="horizontal-top-image-sizer" src="/assets/images/CPS-box-packaging%20211x%20261px.png" alt="">
                     </div>
-                    <div class="horizantal-image text-center bottom-horizantal py-0" dmx-on:dblclick="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/login/referer/aHR0cHM6Ly94ZXJvZ3JhcGhpY3MuZGVzaWdubmJ1eS5iaXovZW4vY3VzdG9tZXIvYWNjb3VudC9pbmRleC8%2C/\')">
-                        <iframe src="https://spinzam.com/shot/embed/?idx=394469" <iframe <iframe src="https://spinzam.com/shot/embed/?idx=394469" width="250" height="240" scrolling="no" style="max-width:100%; max-height:100vw;"></iframe>
+                    <div class="horizantal-image text-center bottom-horizantal py-3" dmx-on:dblclick="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/login/referer/aHR0cHM6Ly94ZXJvZ3JhcGhpY3MuZGVzaWdubmJ1eS5iaXovZW4vY3VzdG9tZXIvYWNjb3VudC9pbmRleC8%2C/\')">
+                        <img class="" src="/assets/images/Booklets%20Reports%20Covers%20&amp;%20Binding/CPS-booklets 194 x100px.jpg" alt="">
 
                         </margin-top>
                     </div>
@@ -907,10 +904,10 @@
                     </div>
                     <hr class="mx-3 mt-0" />
                     <div class="row mx-0">
-                        <h1><span class="USD">$3,999</span><span class="month">/<u>month*</u></span></h1>
+                        <h1><span class="USD">$3,000</span><span class="month">/<u>month*</u></span></h1>
                         <div class="check-points">
                             <ul>
-                                <li>Print 30,000 leter size pages </li>
+                                <li>Print 20,000 leter size pages </li>
                                 <li> 5hs Consultation</li>
                                 <li>Print up to 100 booklets*</li>
                                 <li>Print up to 100 booklets*</li>
@@ -939,10 +936,10 @@
                     </div>
                     <hr class="mx-3 mt-0" />
                     <div class="row mx-0">
-                        <h1><span class="USD">$4,999</span><span class="month">/<u>month*</u></span></h1>
+                        <h1><span class="USD">$4,000</span><span class="month">/<u>month*</u></span></h1>
                         <div class="check-points">
                             <ul>
-                                <li>Print 50,000 leter size pages </li>
+                                <li>Print 30,000 leter size pages </li>
                                 <li> 10hrs Consultation</li>
                                 <li>Print up to 200 booklets*</li>
                                 <li>Print up to 200 booklets*</li>
@@ -981,16 +978,7 @@
     </div>
 </div>
 <!-- Section8 Individual Plan Carousel End -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <iframe src="https://spinzam.com/shot/embed/?idx=394469" <iframe <iframe src="https://spinzam.com/shot/embed/?idx=394469" width="400" height="400" scrolling="no" style="max-width:100%; max-height:100vw;"></iframe>
-            </div>
-        </div>
-    </div>
-</section>
-<div class="navbar pb-0 border  border-top-1  ">
+<div class="navbar pb-0 border  border-top-1 ">
 
     <div class="d-flex justify-content-center w-100">
         <div class="flex-column justify-content-center px-3 button-animation">
@@ -1001,7 +989,7 @@
             <img src="/assets/images/Share-CPS-icon.svg" width="35px">
             <p class="mb-0">Share</p>
         </div>
-        <div id="isSupported" class="text-center" dmx-on:click="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/');">
+        <div class="text-center" dmx-on:click="browserMain.goto('https://xerographics.designnbuy.biz/en/customer/account/')">
             <div class="flex-column px-4 button-animation">
                 <img src="/assets/images/Account-icon.svg" width="35px">
                 <p class="mb-0">Account</p>
@@ -1159,18 +1147,4 @@
 <script src="/js/main.js" defer></script>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-<!-- <script>
-    const para = document.getElementById('isSupported')
-    const button = document.querySelector('button')
-    
-    if(navigator.vibrate) {
-    para.innerHTML = "Vibration is supported on this device"
-    }
-    
-    button.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.navigator.vibrate(500);
-    })
-</script> -->
 <!-- Custom JS -->

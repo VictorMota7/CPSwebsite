@@ -404,7 +404,7 @@ nav .desktop-nav li a:hover {
 }
 /* AM: cleanup */
 
-.section6{   
+.section6 {   
 /* background-color: #f6e74c; */
 }
 
@@ -701,7 +701,7 @@ margin: 0px;
     .mobile-search-container .quick-links ul li a:hover {
         color: #01060c;
     }
-    .section2{
+    .section2 {
         margin-top: 60px;
         padding: 0px;
     
@@ -767,6 +767,8 @@ ol, ul {
         text-align: left;
         line-height: 52px;
 
+        
+        
       
     }
     .heading3{ 
@@ -801,7 +803,7 @@ ol, ul {
 /* AM: */
     .section3{
     margin-top: 90px;
-    
+    background-color: #ffffff !important;
 }
 
 .card{  
@@ -838,7 +840,16 @@ select {
        -moz-appearance: none;
             appearance: none;
 }
-  
+.section8{
+    margin-top: 100px;
+    /* background-color: #f6e74c; */
+    border-width: 22px;
+    border-color: #1d1d1f;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+}
 .section8 .section8-carousel-card-wrapper hr{
     /* border-top: 5px dotted #0c0c0cbd; */
     color: #fff;
@@ -885,13 +896,16 @@ select {
 }
 .section8-carousel-card-wrapper .carousel .carousel-cell {
     width: auto;
-    min-height: 100%;
+    min-height: 400px;
     border-radius: 18px;
     counter-increment: gallery-cell;
     contain: content;
 }
-
-
+.section7{
+    margin-top: 100px;
+    /* background-color: #f6e74c; */
+    padding-bottom: 42px;
+}
 .section7 .section7-carousel-card-wrapper hr{
     /* border-top: 5px dotted #0c0c0cbd; */
     color: #fff;
@@ -943,7 +957,7 @@ select {
 }
 .section7-carousel-card-wrapper .carousel .carousel-cell {
     width: auto;
-    min-height: 100%;
+    min-height: 400px;
     border-radius: 18px;
     counter-increment: gallery-cell;
     contain: content;
@@ -1170,7 +1184,12 @@ select {
 /* AM: changed the height of the section here */
 
 
-
+.section5{
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
+    /* background-color: #f6e74c; */
+}
 .section4-carousel-card-wrapper h3{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 31px;
@@ -1217,18 +1236,20 @@ display: inline;
     border-radius: 18px;
     height: 100%;
 }
-/* ------------------------------ */
-
-
-
+/* .section4-carousel-card-wrapper .carousel .flickity-page-dots{
+    display: none;
+} */
+/* AM: Adjusted card to show soft shadow */
 .section4-carousel-card-wrapper .carousel .carousel-cell {
-    width: auto;
-    /* min-height: 550px; */
-    counter-increment: gallery-cell;
-    contain: content;
+  width: auto;
+  min-height: 550px;
+  counter-increment: gallery-cell;
+  contain: content;
     bottom: 0px;
     padding-left:10px;
-   
+    /* right: 48px;
+    left: 2px; */
+    /* margin: 10px 18px 10px 10px; */
 }
 .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
     margin-left: -295px;
@@ -1249,10 +1270,6 @@ display: inline;
             transform: translate(-50%,-50%);
     background-color: #fff;
 }
-
-/* ------------------------------------- */
-
-
 .section3-wrapper .carousel{
     position: absolute;
     top: 50%;
@@ -1262,7 +1279,7 @@ display: inline;
     height: auto;
     /* background-color: azure;:  */
 }
-.section3-wrapper .carousel .carousel-cell {
+.section3-wrapper .carousel .carousel-cell{
     height: auto;
     padding: 5px;
     margin: 0px;
@@ -1328,11 +1345,15 @@ display: inline;
     display: block !important;
 } 
 @media only screen and (min-width:270px){
+    
+    
     .horizontal-top-image-sizer{
     width:124px;
     height: auto
     }
-     .style19 {
+
+
+    .style19 {
         width: 37px;
         margin-left: -12px;
         margin-top: 269px;
@@ -1340,49 +1361,44 @@ display: inline;
     .style31 {
         margin-left: 0px;
     }
-     .heading1{
-        font-size: 36px;
-    }
-    .heading3{
-        font-size: 24px;
-    }
-    .section2{
-        margin-top: 0px;
-        padding: 34px 0px 0px;
-    }
+   
     .section2-1 {
         padding-top: 18px;
+        /* width: 100%; */
+    }
+    .heading1{
+        font-size: 36px;
+    }
+    .section2 {
+        margin-top: 0px;
+        padding: 34px 0px 0px;
     }
     .section3{
         margin-top: 0px;
         padding-top:  76px;
+  
+    }
+    .section3 .carousel-title{
+        font-size: 12px;
+    }
+    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
+        margin-left: -65px;
+    /* margin-top: -83px; */
+    }
+    .section4 .carousel .flickity-prev-next-button {
+        top: 30%;
     }
     .section4{
         padding-top: 95px;
-        padding-bottom: 40px;
+        padding-bottom: 141px;
+        
     }
-    .section5{
-        padding-top: 0px;
-        padding-bottom: 40px;
+    .section4 select{
+        width: 180px;
     }
-    .section5-1{
-        padding-top: 0px;
-        padding-bottom: 40px;
+    .section5 select{
+        width: 155px;
     }
-    .section6{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .section7{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-
-    /* --------------------------------SELECT-- */
     .section5-1 select{
         width: 128px;
     }
@@ -1394,17 +1410,6 @@ display: inline;
     }
     .section8 select{
         width: 250px;
-    } */
-    /* --------------------------------SELECT END- */
-    
-    .section3 .carousel-title{
-        font-size: 12px;
-    }
-    .section3-wrapper .carousel .flickity-viewport .flickity-slider{
-        margin-left: -65px;
-    }
-    .section4 .carousel .flickity-prev-next-button {
-        top: 30%;
     }
     .section4-carousel-card-wrapper .card .card-icons{
         border: 1px solid; 
@@ -1445,11 +1450,20 @@ display: inline;
         line-height: 1.16;
         letter-spacing: 1.5px;
     }
+    .section5{
+     margin-top: -307px;
+     padding-bottom: 51px;
+    }
+    .heading3 {
+        font-size: 24px;
+    }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 414px;
     }
-    .card-horizantal {
+    .card-horizantal{
         border: 0px solid rgba(0,0,0,.125); 
+        /* background-color: #f6e74c; */
+        /* -webkit-box-shadow: 0px 0px 0px rgb(0 0 0 / 0%); */
         margin: 0px;
         width: 260px;
         height: 350px; 
@@ -1461,7 +1475,7 @@ display: inline;
     .section5-carousel-card-wrapper .card .card-img-top{
         height: 325px !important;
     }
-    .section5-carousel-card-wrapper .carousel .carousel-cell {
+    .section5-carousel-card-wrapper .carousel .carousel-cell{
         min-height: 350px;
         padding: 10px 6px 10px 10px;
     }
@@ -1481,6 +1495,12 @@ display: inline;
         font-size: 12px;
         line-height: 1.16;
         letter-spacing: 1.5px;
+    }
+    .section5-1{
+        padding-top:35px;
+        padding-bottom: 27px;
+        margin-top:-85px;
+        /* background-color: #65d9d8; */
     }
     .section5-1-carousel-card-wrapper .card .card-icons{
         border: 1px solid; 
@@ -1524,7 +1544,7 @@ display: inline;
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left:  0px;
     }
-    .section6-testimonial-wrapper .carousel .carousel-cell {
+    .section6-testimonial-wrapper .carousel .carousel-cell{
         min-height: 350px;
         padding:10px 6px 10px 10px;
     }
@@ -1551,9 +1571,16 @@ display: inline;
         margin-top: 0px;
         font-size: 13px;
     }
+
+    .section6 {
+        margin-top: 2px;
+    }
+    .section7 {
+        margin-top: 16px;
+    }
     .section7-carousel-card-wrapper .carousel .carousel-cell {
         width: 276px;
-        height: 350px;
+        height: 395px;
         padding: 10px 6px 10px 10px;
     }
     .section7-carousel-card-wrapper .carousel .carousel-cell .card{
@@ -1565,6 +1592,9 @@ display: inline;
     }
     .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: 0px;
+    }
+    .section8 {
+        margin-top: -65px;
     }
     .section8-carousel-card-wrapper .carousel .carousel-cell {
        width: 276px;
@@ -1583,54 +1613,60 @@ display: inline;
     }
     .footer-logo p {
         font-size: 30px;
-        font-family: arial; 
+        font-family: arial;
+       
     }
     .section-footer{
     margin-top:  39px;
+
     }
 }
 @media only screen and (min-width:320px){
+
     .carousel .flickity-prev-next-button{
         display: none;
     }
-    .card-horizantal {
-    height: 320px;
+
+    .section4{
+        padding-top: 95px;
+        padding-bottom: 141px;
+}
+    .section5 {
+       padding-top: 0px;
+    }
+    .section5-1 {
+        margin-top: -74px;
+        padding-top: 15px;
+    
+    }
+    .section6 {
+        margin-top: -68px;
+        padding-top: 15px;
+    }
+    .section7 {
+        margin-top: -119px;
+     } 
+    .section2 {
+        padding-top: 38px;
+      
     }
     .heading1{
         font-size: 46px;
     }
-    .section2{
-        padding-top: 38px;
-    }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
-    }
-    .section5{
-         padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .section5-1{
-         padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .section6{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .section7{
-         padding-top: 0px;
-        padding-bottom: 40px;
-     } 
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-
-    /* ---------------------------- */
     .style31 {
         margin-left: 17px;
     }
+    .section6 {
+    margin-top: -13px;
+
+    padding-bottom: 134px;
+    padding-top: 17px;
+    }
+    .section8 {
+     margin-top: -65px;
+    padding-bottom: 41px;
+    }
+    
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -87px;
     }
@@ -1655,9 +1691,6 @@ display: inline;
     }
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: 396px;
-    }
-    .section5-carousel-card-wrapper .carousel .carousel-cell {
-        min-height: 350px;   
     }
     .section5-carousel-card-wrapper .card .card-img-top{
         height: 350px !important;
@@ -1697,9 +1730,6 @@ display: inline;
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left:  -17px;
     }
-    .section6-testimonial-wrapper .carousel .carousel-cell {
-        min-height: 350px;
-    }
     .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: -17px;
     }
@@ -1730,38 +1760,24 @@ display: inline;
         margin-left: -11px;
         margin-top: 271px;
     }
-     .section2{
+     .section2 {
         Padding-top:  37px;
+        
     }
     .section3{
         margin-top: 0px;
         padding-top: 67px;
-    }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
+
     }
     .section5{
         padding-top: 0px;
-        padding-bottom: 40px;
+        padding-bottom: 141px;
     }
-    .section5-1{
-        padding-top: 0px;
-        padding-bottom: 40px;
+
+    .section5-1 {
+        margin-top: -68px;
+       padding-bottom: 51px;
     }
-    .section6{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .section7{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    } 
-    .section8{
-      padding-top: 0px;
-      padding-bottom: 40px;
-    }
-/* ------------------------------------------- */
     .section5 select{
         width: 205px;
     }
@@ -1780,7 +1796,31 @@ display: inline;
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -100px;
     }
-    .card-horizantal {
+    /* .section4 select{
+        width: 220px;
+    }
+    .section4-carousel-card-wrapper .carousel .carousel-cell {
+    width: 323px;
+    height: 532px;
+    padding: 10px 8px 10px 10px;
+    }
+    .section4 .carousel .flickity-prev-next-button {
+        top: 35%;
+    }
+    .section4-carousel-card-wrapper .carousel .carousel-cell .card{
+        width: 305.9px;
+        height: 382.2px;
+    }
+    .section4-carousel-card-wrapper .card .card-icons{
+        height: 90px;
+    }
+    .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
+        margin-left: 473px;
+    } */
+
+    /* AM: section5 vertical alignment */
+   
+    .card-horizantal{
         width: 323.9px;
         height: 382.2px; 
     }
@@ -1817,11 +1857,13 @@ display: inline;
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: -9px;
     }
-    
+    .section6{
+        margin-top: -25px;
+    }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -8px;
     }
-    .section6-testimonial-wrapper .carousel .carousel-cell {
+    .section6-testimonial-wrapper .carousel .carousel-cell{
         min-height: 410px;
         padding:10px 8px 10px 10px;
     }
@@ -1838,6 +1880,7 @@ display: inline;
         height: 90px;
         top: -40px;
         -webkit-box-shadow: 0 0px 0px rgb(0 0 0 / 0%);
+                /* box-shadow: 0 5px 4px rgb(0 0 0 / 50%); */
     }
     .section6-testimonial-wrapper .card .box-area .img-area img {
         margin-left: 11px;
@@ -1850,18 +1893,25 @@ display: inline;
     .fa-quote-left{
         font-size:48px;
     }
+    .section7 {
+        margin-top: -118px;
+     } 
     .section7-carousel-card-wrapper .carousel .carousel-cell {
         width: 323.9px;
     }
     .section7-carousel-card-wrapper .carousel .carousel-cell .card{
     width: 305.9px;
-    height: 327.2px;
+    height: 380.2px;
     }
     .section7-carousel-card-wrapper .card .card-img-top {
         height: 382.2px !important;
     }
     .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: -9px;
+    }
+    .section8 {
+     margin-top: -4px;
+    padding-bottom: 41px;
     }
     .section8-carousel-card-wrapper .carousel .carousel-cell {
         width: 323.9px;
@@ -1871,6 +1921,7 @@ display: inline;
     .section8-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 305.9px;
         height: 497px;
+
     }
     .section8-carousel-card-wrapper .card .card-img-top {
         width: 292.899px;
@@ -1879,6 +1930,7 @@ display: inline;
     .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: -13px;
     } 
+    
 }
 @media only screen and (min-width:360px){
      .style19 {
@@ -1886,59 +1938,33 @@ display: inline;
         margin-left: -12px;
         margin-top: 322px;
      }
+     
+     
+     
      .carousel .flickity-prev-next-button{
         display: none;
     }
-    .h1 {
-       font-size: 48px;
+    .section5 {
+       padding-top: 150px;
+       padding-bottom: 99px;
+       margin-top: -382px;
      }
-    .section2{
-        margin-top: 1px;
-        padding: 38px 0px 0px;
-    }
-    .section3{
+     .section2 {
+        padding-top: 35px;
+        
+     } 
+
+     .section3{
         margin-top: 0px;
         padding-top: 60px;
+     }
+    .section6 {
     }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
-}
-    .section5{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .section5-1{
-         padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .section6{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-     .section7{
-        padding-top: 0px;
-        padding-bottom: 40px;
+     .section7 {
+        margin-top:-129px;
      } 
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    } 
-/* ------------------------------------------- */
-    .section5 select{
-        width: 205px;
-    }
-    .section5-1 select{
-        width: 180px;
-    }
-    .section6 select{
-        width: 160px;
-    }
-    .section7 select{
-        width: 176px;
-    }
-    .section8 select{
-        width:  153px;
+      .section8 {
+    
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left:-113px;
@@ -2020,8 +2046,9 @@ display: inline;
      .h1 {
        font-size: 48px;
      }
-    .section2{
+    .section2 {
         margin-top: 1px;
+       
         padding: 38px 0px 0px;
     }
     .section3{
@@ -2030,27 +2057,27 @@ display: inline;
     }
     .section4{
         padding-top: 95px;
-        padding-bottom: 40px;
+        padding-bottom: 141px;
 }
-    .section5{
+    .section5 {
         padding-top: 0px;
-        padding-bottom: 40px;
+        padding-bottom: 141px;
     }
     .section5-1{
-         padding-top: 0px;
-        padding-bottom: 40px;
+        margin-top: -36px;
+        padding-bottom: 64px;
+        padding-top: 6px;
     }
     .section6{
-        padding-top: 0px;
-        padding-bottom: 40px;
+        margin-top: -51px;
+        padding-bottom: 64px;
     }
-     .section7{
-       padding-top: 0px;
-        padding-bottom: 40px;
+     .section7 {
+      margin-top: -44px;
      } 
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
+    .section8 {
+        margin-top: -6px;
+        padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -126px;
@@ -2091,36 +2118,42 @@ display: inline;
     .h1 {
         font-size: 48px;
     }
-    .section2{
-         padding-top: 60px;
+    .section2 {
+        padding-top: 35px;
+       
     }
     .section3{
         margin-top: 0px;
         padding-top: 60px;
     }
+     
+     
+   
+
     .section4{
         padding-top: 95px;
-        padding-bottom: 40px;
+        padding-bottom: 141px;
     }
+   
     .section5{
         padding-top: 0px;
-       padding-bottom: 40px;
+        padding-bottom: 141px;
+
     }
     .section5-1{
-         padding-top: 0px;
-        padding-bottom: 40px;
+        padding-top: 0px;
+        padding-bottom: 141px;
     }
     .section6{
-         padding-top: 0px;
-        padding-bottom: 40px;
+        margin-top: -27px;
+        padding-bottom: 64px;
     }
-     .section7{
-       padding-top: 0px;
-        padding-bottom: 40px;
+     .section7 {
+      margin-top:  -26px;
     } 
-    .section8{
-         padding-top: 0px;
-        padding-bottom: 40px;
+    .section8 {
+        margin-top: 17px;
+        padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -135px;
@@ -2161,36 +2194,30 @@ display: inline;
     .h1 {
         font-size: 48px;
     }
-    .section2{
+    .section2 {
         padding-top:  34px;
     }
     .section3{
         margin-top: 0px;
         padding-top: 78px;
     }
-    .section4{
-      padding-top: 95px;
-      padding-bottom: 40px;
-    }
-     .section5{
-      padding-top: 0px;
-      padding-bottom: 40px;
-    }
+    
+   
+    
     .section5-1{
-       padding-top: 0px;
-       padding-bottom: 40px;
+        margin-top: -30px;
+        padding-bottom: 64px;
     }
     .section6{
-        padding-top: 0px;
-       padding-bottom: 40px;
+        margin-top: -61px;
+        padding-bottom: 64px;
     }
-     .section7{
-       padding-top: 0px;
-       padding-bottom: 40px;
+     .section7 {
+      margin-top: -50px;
     } 
-    .section8{
-        padding-top: 0px;
-       padding-bottom: 40px;
+    .section8 {
+        margin-top: -18px;
+        padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -201px;
@@ -2231,37 +2258,27 @@ display: inline;
     .h1 {
         font-size: 52px;
     }
-    .section2{
+    .section2 {
         margin-top: 35px;
-        padding: 0px;  
+        padding: 0px;
+        
     }
     .section3{
         margin-top: 0px;
         padding-top:  71px;
     }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
-    }
-     .section5{
-        padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section5-1{
-        padding-top: 0px;
-       padding-bottom: 40px;
-    }
+   
+    
     .section6{
-        padding-top: 0px;
-       padding-bottom: 40px;
+        margin-top: -32px;
+        padding-bottom: 64px;
     }
-     .section7{
-      padding-top: 0px;
-       padding-bottom: 40px;
+     .section7 {
+      margin-top: -53px;
     } 
-    .section8{
-        padding-top: 0px;
-       padding-bottom: 40px;
+    .section8 {
+        margin-top: -20px;
+        padding-bottom: 64px;
     } 
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -209px;
@@ -2300,41 +2317,14 @@ display: inline;
     .heading1 {
         font-size: 48px;
     }
-    .heading3{
-        font-size: 30px;
-    }  
-     .section2{
+     .section2 {
         padding-top: 0px;
+      
      }
     .section3{
         margin-top: 0px;
         padding-top: 100px;
     }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
-    }
-    .section5{
-        padding-top: 0px;
-        padding-bottom: 14px;
-    }
-    .section5-1{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section6{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section7{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-/* ------------------------------------------SELECT BTN */
     .section4 select {
         width: 310px;
     }
@@ -2353,11 +2343,20 @@ display: inline;
     .section8 select{
         width: 242px;
     }
-    /* ------------------------------------------SELECT BTN END */
-
+    .section7 {
+        padding-top: 29px;
+        margin-bottom: -68px;
+        margin-top: -58px;
+    }
+    .section8 {
+        padding-top:  -5px;
+        margin-top:  -60px;
+    }
     .section3 .carousel-title{
         font-size: 14px;
     }
+    
+    
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -289px;
     }
@@ -2366,7 +2365,7 @@ display: inline;
     }
     .section4-carousel-card-wrapper .carousel .carousel-cell {
         width: 418px;
-        /* min-height: 550px; */
+        min-height: 550px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 483px;
@@ -2376,10 +2375,12 @@ display: inline;
         height: 500px;
     }
     .style19{
+        
         width: 50px;
         margin-top: 426px;
         margin-left: -18px;
     }
+    /* AM: white background-color: white in the xcard with sm icons */
     .section4-carousel-card-wrapper .card .card-icons{
         height: 140px;
         background-color: #ffffff;
@@ -2388,14 +2389,22 @@ display: inline;
     .section4-carousel-card-wrapper .card .card-img-overlay {
         padding: 22px 25px;
     }
+    .section5{
+       padding-top: 159px;
+       padding-bottom: 10px;
+       margin-top: -263px;
+    }
+    .heading3 {
+        font-size: 30px;
+    }    
     .section5-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 482px;
     }
     .section5-carousel-card-wrapper .carousel .carousel-cell {
         width: 418px;
-        min-height: 548px
+        min-height: 550px;
     }
-    .card-horizantal {
+    .card-horizantal{
         width: 418px;
         height: 532px;
     }
@@ -2415,7 +2424,7 @@ display: inline;
     }
     .section5-1-carousel-card-wrapper .carousel .carousel-cell {
         width: 418px;
-        /* min-height: 550px; */
+        min-height: 550px;
     }
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -146px;
@@ -2425,6 +2434,7 @@ display: inline;
         height: 511px;
     }
 
+    /* AM: white background-color: white in the xcard with sm icons */
     .section5-1-carousel-card-wrapper .card .card-icons{
         height: 145px;
         background-color: #ffffff;
@@ -2432,9 +2442,11 @@ display: inline;
     .section5-1-carousel-card-wrapper .card .card-img-overlay {
         padding: 22px 25px;
     }
-    
-    .section6-testimonial-wrapper .carousel .carousel-cell {
-        min-height: 378.117px;
+    .section6 {
+        padding-top: 20px;
+    }
+    .section6-testimonial-wrapper .carousel .carousel-cell{
+        min-height: 375px;
         width: 418px;
         padding: 10px 8px 10px 10px;
     }
@@ -2446,10 +2458,13 @@ display: inline;
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -144px;
     }
-    
+    .section5-1 {
+        padding-bottom: 38px;
+        margin-top:  -3px;
+    }
     .section7-carousel-card-wrapper .carousel .carousel-cell {
         width: 418px;
-        min-height: 445px;
+        min-height: 500px;
         padding: 10px 8px 10px 10px;
     }
     .section7-carousel-card-wrapper .carousel .carousel-cell .card {
@@ -2473,75 +2488,54 @@ display: inline;
     }
 }
 @media only screen and (min-width:768px){
-    .nav-container {  
+      .nav-container {
+          /* position: fixed; */
       }
-    .mt-6 {
+   .mt-6 {
         padding-top: 23px !important;
         margin-top: -2px;
-    }
-    nav .desktop-nav li a {
+   }
+      
+      nav .desktop-nav li a {
         color: black;
      }
-    .carousel .flickity-prev-next-button{
+ 
+     .carousel .flickity-prev-next-button{
         display: none;
     }
-    .carousel .flickity-prev-next-button{
-        display: none;
-    }
-     .heading1 {
+    
+    
+    .heading1 {
         font-size: 48px;
     }
-    .heading3{
-        font-size: 30px;
-    }  
-     .section2{
-        padding-top: 0px;
+     .section2 {
+        padding-top: 5px;
+       
      }
     .section3{
         margin-top: 0px;
         padding-top: 100px;
     }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
+    .section7 {
+        padding-top: 29px;
+        margin-bottom: -68px;
     }
-    .section5{
-        padding-top: 0px;
-        padding-bottom: 14px;
+    .section8 {
+        padding-top:  -5px;
     }
-    .section5-1{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section6{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section7{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-
-    /* --------------------------------------SELECT BTN  */
-    
-    .section5 select{
-        width:297px;
-    }
-    .section5-1 select{
-        width:  274px;
-    }
-    .section6 select{
-        width: 245px;
-    }
-    /* ---------------------------------SELECT BTN END  */
-   
     .section3 .carousel-title{
         font-size: 14px;
     }
+    .section4{
+        padding-top: 0px;
+        padding-bottom: 141px;
+
+    }
+
+    .section5{
+        padding-top: 0px;
+        padding-bottom: 141px;
+}
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -289px;
     }
@@ -2550,7 +2544,7 @@ display: inline;
     }
     .section4-carousel-card-wrapper .carousel .carousel-cell {
         width: 418px;
-        /* min-height: 550px; */
+        min-height: 550px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 479px;
@@ -2559,7 +2553,7 @@ display: inline;
         width: 400px;
         height: 500px;
     }
-    .style19{
+     .style19{
         width: 50px;
         margin-top: 426px;
         margin-left: -18px;
@@ -2577,12 +2571,14 @@ display: inline;
         width: 400px;
         height: 492px;
     }
+    
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left:-167px;
     }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -167px;
     }
+     
     .section7-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: -168px;
     }
@@ -2596,7 +2592,7 @@ display: inline;
          width: 779px;
         -webkit-transition: all 400ms ease;
         transition: all 400ms ease;
-      
+        /* AM NAV */
      
      }
      .container{
@@ -2605,48 +2601,30 @@ display: inline;
      .carousel .flickity-prev-next-button{
         display: none;
     }
+     
     .heading1 {
         font-size: 48px;
     }
-    .heading3{
-        font-size: 30px;
-    }  
-     .section2{
+     .section2 {
         padding-top: 0px;
+       
      }
     .section3{
         margin-top: 0px;
-        padding-top: 100px;
+        padding-top: 81px;
     }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
+   
+    .section7 {
+        padding-top: 29px;
+        margin-bottom: -68px;
     }
-    .section5{
-        padding-top: 0px;
-        padding-bottom: 14px;
+    .section8 {
+        padding-top:  -5px;
     }
-    .section5-1{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section6{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section7{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-}
-    /* ----------------------------------- */
     .section3 .carousel-title{
         font-size: 14px;
     }
+  
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -289px;
     }
@@ -2655,7 +2633,7 @@ display: inline;
     }
     .section4-carousel-card-wrapper .carousel .carousel-cell {
         width: 418px;
-        /* min-height: 550px; */
+        min-height: 550px;
     }
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 479px;
@@ -2664,6 +2642,7 @@ display: inline;
         width: 400px;
         height: 500px;
     }
+
     .section5-carousel-card-wrapper .carousel .carousel-cell .card{
         width: 400px;
         height: 492px;
@@ -2699,52 +2678,37 @@ display: inline;
     .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: -182px;
     }
-
+}
 @media only screen and (min-width:976px){
      .carousel .flickity-prev-next-button{
-     display: none;
+        display: none;
     }
+    
+    
     .container{
+    
     margin: 0 auto;
     padding: 0 8px;
     height: 100%;
     } 
+        margin-left: -335px;
     .heading1 {
         font-size: 48px;
     }
-    .heading3{
-        font-size: 30px;
-    }  
-     .section2{
+     .section2 {
         padding-top: 0px;
+        
      }
     .section3{
         margin-top: 0px;
         padding-top: 100px;
     }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
+    .section7 {
+        padding-top: 29px;
+        margin-bottom: -68px;
     }
-    .section5{
-        padding-top: 0px;
-        padding-bottom: 14px;
-    }
-    .section5-1{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section6{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section7{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
+    .section8 {
+        padding-top:  -5px;
     }
     .section3-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -383px;
@@ -2808,6 +2772,7 @@ display: inline;
     }
 }
 @media only screen and (min-width:1024px) {
+    
     .nav-container nav {
          width: 922px;
         -webkit-transition: all 400ms ease;
@@ -2816,51 +2781,29 @@ display: inline;
     .container{
         width:922px;
     }
+    
     .carousel .flickity-prev-next-button{
         display: block;
     }
-    .heading1 {
-        font-size: 48px;
-    }
-    .heading3{
-        font-size: 30px;
-    }  
-     .section2{
+    .section2 {
         padding-top: 0px;
-     }
+        
+    }
     .section3{
         margin-top: 0px;
-        padding-top: 100px;
+        padding-top: 93px;
     }
-    .section4{
-        padding-top: 95px;
-        padding-bottom: 40px;
-    }
-    .section5{
-        padding-top: 0px;
-        padding-bottom: 14px;
-    }
-    .section5-1{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section6{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section7{
-       padding-top: 0px;
-       padding-bottom: 40px;
-    }
-    .section8{
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    /* -------------------END */
-
     .section3-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: -408px;
     }
+   .section4{
+        padding-top: 0px;
+        padding-bottom: 141px;
+}
+    .section5{
+        padding-top: 0px;
+        padding-bottom: 141px;
+}
     .section4-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: 355px;
     }
@@ -2880,6 +2823,17 @@ display: inline;
     .section5-1-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -278px;
     }
+    .section5-1{
+        margin-top: -2px;
+    }
+    .section6 {
+         margin-top: -18px;
+        padding-bottom: 134px;
+        padding-top: 17px;
+    }
+    .section7 {
+        margin-top: -126px;
+    }
     .section6-testimonial-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left: -273px
     }
@@ -2890,7 +2844,11 @@ display: inline;
         width: 400px;
         height: 387.886px;
     }
-
+    .section8 {
+        margin-top: -83px;
+        padding-bottom: 131px;
+    
+    }
     .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider{
         margin-left:-270px;
     }
