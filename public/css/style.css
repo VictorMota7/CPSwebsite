@@ -2591,17 +2591,14 @@ display: inline;
     }
 }
 @media only screen and (min-width:820px){
-     
-     .nav-container nav {
+    .nav-container nav {
          width: 779px;
         -webkit-transition: all 400ms ease;
         transition: all 400ms ease;
-      
-     
-     }
+    }
      .container{
          width: 779px;
-     }
+    }
      .carousel .flickity-prev-next-button{
         display: none;
     }
@@ -2613,7 +2610,7 @@ display: inline;
     }  
      .section2{
         padding-top: 0px;
-     }
+    }
     .section3{
         margin-top: 0px;
         padding-top: 100px;
@@ -2642,8 +2639,6 @@ display: inline;
         padding-top: 0px;
         padding-bottom: 40px;
     }
-}
-    /* ----------------------------------- */
     .section3 .carousel-title{
         font-size: 14px;
     }
@@ -2699,7 +2694,7 @@ display: inline;
     .section8-carousel-card-wrapper .carousel .flickity-viewport .flickity-slider {
         margin-left: -182px;
     }
-
+}
 @media only screen and (min-width:976px){
      .carousel .flickity-prev-next-button{
      display: none;
