@@ -3,5 +3,88 @@
 
 <html>
 
+<head>
+    <script src="/dmxAppConnect/dmxAppConnect.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/dmxAppConnect/dmxRouting/dmxRouting.js" defer></script>
+
+
+
+    <script src="/dmxAppConnect/dmxBootstrap5Collapse/dmxBootstrap5Collapse.js" defer></script>
+
+    <link rel="stylesheet" href="/dmxAppConnect/dmxAnimateCSS/animate.min.css" />
+
+    <script src="/dmxAppConnect/dmxAnimateCSS/dmxAnimateCSS.js" defer></script>
+
+    <script src="/dmxAppConnect/dmxBootstrap5Popovers/dmxBootstrap5Popovers.js" defer></script>
+
+    <script src="/dmxAppConnect/dmxVideo/dmxVideo.js" defer></script>
+
+    <script src="/dmxAppConnect/dmxScheduler/dmxScheduler.js" defer></script>
+
+    <base href="/">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- SETTING STATUS BAR COLOR  -->
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f7f8f8">
+    <meta name="msapplication-TileColor" content="#f7f8f8">
+    <meta name="theme-color" content="#f7f8f8">
+    <!-- SETTING END STATUS BAR COLOR  -->
+
+
+    <meta name="msapplication-navbutton-color" content="ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+    <meta charset="UTF-8">
+    <title>CPS of NY, NJ</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/bootstrap/5/css/bootstrap.min.css" />
+
+    <!-- Custom Codes Starts-->
+    <!-- changed to AppleX on line 29-->
+    <link rel="shortcut icon" href="https://communities.appleX.com/en20230207/public/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="./css/flickity.css">
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+    <!-- Custom Codes Ends -->
+
+    <script src="/dmxAppConnect/dmxBootstrap5Navigation/dmxBootstrap5Navigation.js" defer></script>
+    <script src="/dmxAppConnect/dmxBrowser/dmxBrowser.js" defer></script>
+    <script src="/js/haptics.js"></script>
+</head>
+
+
+<body is="dmx-app" id="main">
+
+
+
+    <div is="dmx-browser" id="browserMain"></div>
+    <div is="dmx-view" id="content">
+        <%- await include(content, locals); %>
+
+    </div>
+    <script src="/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Js -->
+    <script src="/js/main.js" defer></script>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- Custom JS -->
+
+
+</body>
 
 </html>
