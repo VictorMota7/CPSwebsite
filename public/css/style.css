@@ -77,13 +77,14 @@ nav .desktop-nav li a:hover {
 }
                                                                     /* QQQQQQ */
 .link-logo {
-    background: url('../assets/CPS-logo-center-preserve.svg');
+    background: url('../assets/images/cp-logo.png');
     display: block;
     background-position: center;
-    height: 48px;
-    width: 48px;
+    height: 35px;
+    width: 35px;
     background-repeat: no-repeat;
-    background-image: url("../CPS-logo-center-preserve.svg");
+    background-size: cover;
+/*background-image: url("../CPS-logo-center-preserve.svg");*/
 }
 
 .link-search {
