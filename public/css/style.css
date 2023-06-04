@@ -3151,13 +3151,12 @@ background-color: blue;
 .card-animation{
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    
-    
 }
+
 .card-animation:hover{
     margin-left:6px;
-    /* + */
- 
+   -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 
